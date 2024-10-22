@@ -617,9 +617,9 @@ Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de twe
 
 ![](./images/a_1.png)
 
-An example of Maple solution:
 
 ![](./images/m_1.png)
+![maple solution](./exercises/bordles_1.pdf)
 
 ###### Oefening 2
 
@@ -630,6 +630,8 @@ An example of Maple solution:
 
 ![](./images/plot_1.png)
 
+![](./exercises/bordles_1_ex_2.pdf)
+
 ###### Oefening 3
 
 ![](./images/pl_1_ex_3.png)
@@ -637,6 +639,8 @@ An example of Maple solution:
 ![](./images/pl_1_answer_3.png)
 
 ![](./images/plot_2.png)
+
+![](./exercises/bordles_1_ex_3.pdf)
 
 ##### Werkcollege 1
 
