@@ -649,15 +649,20 @@ Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de twe
 ![](./images/wc1_ex1.png)
 ![](./images/wc1_a1.png)
 
+![](./exercises/wc_1_ex_1.pdf)
+
 ###### Oefening 2
 
 ![](./images/wc1_ex2.png)
 ![](./images/wc1_a2.png)
+![](./exercises/wc_1_ex_2.pdf)
 
 ###### Oefening 3
 
 ![](./images/wc1_ex3.png)
 ![](./images/wc1_a3.png)
+
+![](./exercises/wc_1_ex_3.pdf)
 
 ##### Huis 1
 
@@ -667,20 +672,25 @@ Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de twe
 
 ![](./images/h1_a1.png)
 
+![](./exercises/huis_1_ex_1.pdf)
+
 ###### Oefening 2
 
 ![](./images/h1_ex_2.png)
 ![](./images/h1_a2.png)
 
+![](./exercises/huis_1_ex_2.pdf)
 ###### Oefening 3
 
 ![](./images/h1_ex_3.png)
 ![](./images/h1_a3.png)
 
+
 ###### Oefening 4
 
 ![](./images/h1_ex_4.png)
 ![](./images/h1_a4.png)
+![](./exercises/huis_1_ex_4.pdf)
 
 ##### Huis 2
 
