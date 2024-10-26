@@ -221,7 +221,7 @@ Typisch algorithm om dit op te lossen in de Gauss-elimanation.
 
 > Kolomruimte van A: K(A) is opgespannen door de kolommen van A = span{a1, a2, ... an}
 
-Voor de kolomruimte, de normaal op deze span is de nulruimte ($N(A)) = orthogonaal complement. In dit geval is r(rang) < m
+Voor de kolomruimte, de normaal op deze span is de nulruimte ($N(A)$) = orthogonaal complement. In dit geval is r(rang) < m
 Hiervoor geldt: $0 = y . (Ax) = y^T Ax = x^t A^T y$
 
 > Nulruimte van A: $N(A), Ax = 0$
@@ -237,7 +237,9 @@ $dim(K(A)) = dim(K(A^T)) = r$
 $dim(N(A)) = n - r | dim(N(A^T)) = m - r$
 
 if (r == m) => oplossingen
+
 if (r == n) => unieke oplossing
+
 if (r < m) => oneindig veel oplossingen
 
 #### Example
@@ -245,11 +247,12 @@ if (r < m) => oneindig veel oplossingen
 ![](./images/dim_ex.png)
 
 $K(A)$ = de verschillende lineare combinaties van de kolommen van A
-$N(A)$ = we willen $Ax = 0$, waarbij we dus de rijen van A willen combineren met de $N(A)$ zodanig dat deze 0 word. 
-$K(A^T)$ = de verschillende lineare combinaties van de A
-$N(A^T)$ = we willen de kolommen van A combineren met de $N(A^T)$ zodanig dat deze 0 word.
 
-> Note: Nullruimte is orthogonaal complement van $K(A)$!!!
+$N(A)$ = we willen $Ax = 0$, waarbij we dus de rijen van A willen combineren met de $N(A)$ zodanig dat deze 0 word. 
+
+$K(A^T)$ = de verschillende lineare combinaties van de A
+
+$N(A^T)$ = we willen de kolommen van A combineren met de $N(A^T)$ zodanig dat deze 0 word.
 
 ### Matrix Inverse
 
@@ -278,7 +281,7 @@ De projector heeft 2 properties:
 Gebruikmakend van de projector kunnen we ook de orthogonale component van een y vinden:
 $y^{\perp} = (I - P)y$
 
-Als we het bovenstaande zien, merken we dus ook op dat $y^{||} = Py$
+Als we het bovenstaande zien, merken we dus ook op dat $y^{||} (projectie) = Py$
 
 Vormt een basis voor een subruimte als kolommen/rijen lineair afhankelijk zijn met elkaar (lineaire combinatie).
 
