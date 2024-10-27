@@ -321,7 +321,7 @@ Paar eigenschappen:
 - $det(A) = det(A^T)$
 - Rij verwisselen / kolom verwisselen => $det(A) = -det(A)$
 - Vermenigvuldigen met een constante => $det(cA) = c^n det(A)$
-- det(A) != 0 -> matrix heeft volle rang r = n -> rij vectoren zijn lineair onafhankelijk
+- det(A) != 0 -> matrix heeft volle rang r = n -> **rij vectoren zijn lineair onafhankelijk**
 - det(AB) = det(A)det(B)
 - det(A^(-1)) = 1/det(A)
 
@@ -343,7 +343,7 @@ $R(\theta) = \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta) & cos(\th
 So a typical transformation equation looks like:
 
 $\begin{bmatrix} x' \\ y' \end{bmatrix} = \begin{bmatrix} cos(\theta) & -sin(\theta) \\ sin(\theta) & cos(\theta) \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix}$
-with the middle matrix being inverse.
+with the middle matrix being **inverse**.
 
 ### Example
 
@@ -413,6 +413,12 @@ $v_1$ is een fixed point in het asymptotisch gedrag.
 #### Example
 
 ![](./images/fibo.png)
+
+In het bovenstaande zien we dat $\lambda_1$ de dominante eigenwaarde is. Daardoor kunnen we de fixed point berekenen met:
+
+$\lambda_1^k (v_{L1} . u_0) v_1$
+
+Omdat $\lambda_1$ dominant is, nemen we voor $v_1$ de eerste kolom van $M$ en voor $v_{L1}$ de eerste rij van $M^{-1}$
 
 Dit kan toegepast worden in de zogezegde **Markov proces**
 
@@ -533,12 +539,15 @@ Hier gaan we de coordinaten transformeren naar een andere coordinatenstelsel. (o
 3. doe hetzelfde voor met respect tot y.
 4. Vermenigvuldig twee maal met elkaar door de dubbele afgeleide
 5. som met elkaar
+6. Je hebt nu de laplacian
 
 ### Gradient en de differentiaal
 
 **gradient operator**: $\nabla = \sum_{i=1}^{n} e_i \partial_i$ 
 
 Via deze gradient kunnen we de richtingsafgeleide berekenen (variatie van een functie langs een kromme)
+
+$\nabla f . \frac{dx}{dt}$
 
 ### Example
 
@@ -593,6 +602,8 @@ Er zijn hierbij 3 gevallen voor 1 variable:
 
 Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de tweede orde term van de taylorreeks:
 
+- Hessiaan is symmetrisch, dus $H = O D O^T$
+
 ![](./images/hessiaan.png)
 
 - als alle $\lambda_i > 0$ => minimum
@@ -606,7 +617,7 @@ Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de twe
 
 ![](./images/hessian_my.jpg)
 
-![](./hessian.pdf)
+![maple solution](./hessian.pdf)
 
 ---
 
@@ -719,25 +730,43 @@ Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de twe
 
 ![](./images/huis_2_5.png)
 
+![maple solution](./exercises/huis_2_ex_5.pdf)
+
 ###### Oefening 6
 
 ![](./images/huis_2_6.png)
+
+We stellen eerst A op met de basisvectoren (vormen een basis voor $K(A)$ en $(K(A^T)$)):
+
+$A = \begin{bmatrix} 1 & 0 & 1 \\ 1 & 2 & 0 \end{bmatrix}$
+
+Hier zijn we al dat $N(A) = 0$, ook weten we dat voor $K(A^T)$, het orthogonaal complement de $N(A)$ is, en dus kunnen geen basis vormen lol.
 
 ###### Oefening 7
 
 ![](./images/huis_2_7.png)
 
+Calculating manually is useless for this exam...
+
+![](./exercises/huis_2_ex_7.pdf)
+
 ###### Oefening 8
 
 ![](./images/huis_2_8.png)
+
+
+![](assets/huis_2_ex_8.png)
 
 ###### Oefening 9
 
 ![](./images/huis_2_9.png)
 
+![maple solution](./exercises/huis_2_ex_9.pdf)
+
 ##### PL 2
 
 ###### Oefening 1
+
 ![](./images/pl_2_ex1.png)
 
 // Maple
@@ -785,3 +814,83 @@ This is done similarly as in the Home 2 exercise 4
 ###### Oefening 3
 
 ![](./images/wc_2_ex_2.png)
+
+##### Huis 3
+
+###### Oefening 1
+
+
+![](./exercises/huis_3_ex_1.pdf)
+
+
+###### Oefening 2
+
+![](./exercises/huis_3_ex_2.pdf)
+
+###### Oefening 3
+
+![](./exercises/huis_3_ex_3.pdf)
+
+###### Oefening 4
+
+![](./exercises/huis_3_ex_4.pdf)
+
+###### Oefening 5
+
+![](./exercises/huis_3_ex_5.pdf)
+
+###### Oefening 6
+
+![](assets/huis_3_ex_6.png)
+
+###### Oefening 7
+
+
+![](assets/huis_3_ex_7.png)
+
+###### Oefening 8
+
+![](./exercises/huis_3_ex_8.pdf)
+
+###### Oefening 9
+
+![](./exercises/huis_3_ex_9.pdf)
+
+##### Bordles 3
+
+##### WC 3
+
+##### Huis 4
+
+###### Oefening 1
+
+![](assets/huis_4_ex_1.png)
+
+###### Oefeining 2
+
+![](assets/huis_4_ex_2.png)
+
+###### Oefening 3
+
+![](assets/huis_4_ex_3.png)
+
+###### Oefening 4
+
+![](assets/huis_4_ex_4.png)
+
+###### Oefening 5
+
+![maple solution](./exercises/huis_4_ex_5.pdf)
+
+
+##### Bordles 4
+
+##### WC 4
+
+##### Huis 5
+
+// Todo
+
+##### Bordles 5
+
+##### WC 5
