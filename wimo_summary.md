@@ -763,29 +763,28 @@ Calculating manually is useless for this exam...
 
 ![maple solution](./exercises/huis_2_ex_9.pdf)
 
-##### PL 2
+##### Bordles 2
 
 ###### Oefening 1
 
 ![](./images/pl_2_ex1.png)
 
-// Maple
-// i
-![](./images/pl_2_part_a_maple.png)
 
-// iii
+![](assets/bordles_2_ex_1.png)
+
 ![](./images/pl_2_part_c_maple.png)
 
-// iv
+![maple_solution_version1](./exercise/bordles_2_ex_1_version_1.pdf)
+![maple_solution_version2](./exercise/bordles_2_ex_1_version_2.pdf)
 
-This is done similarly as in the Home 2 exercise 4
 
 ###### Oefening 2
 ![](./images/pl_2_ex_2.png)
 
-//Maple
 
-![](./images/pl_2_part_a_maple.png)
+![](assets/bordles_2_ex_2.png)
+
+![maple_solution](./exercises/bordles_2_ex_2.pdf)
 
 ###### Oefening 3
 
