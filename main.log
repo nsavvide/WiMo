@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.27)  30 OCT 2024 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.27)  30 OCT 2024 20:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -507,22 +507,22 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-<./images/continu.png, id=39, 631.35875pt x 151.56625pt>
+<./images/continu.png, id=155, 631.35875pt x 151.56625pt>
 File: ./images/continu.png Graphic file (type png)
 <use ./images/continu.png>
 Package pdftex.def Info: ./images/continu.png  used on input line 38.
 (pdftex.def)             Requested size: 227.62204pt x 54.64474pt.
-<assets/veel_voorkomend_taylor.png, id=41, 483.30562pt x 302.63063pt>
+<assets/veel_voorkomend_taylor.png, id=157, 483.30562pt x 302.63063pt>
 File: assets/veel_voorkomend_taylor.png Graphic file (type png)
 <use assets/veel_voorkomend_taylor.png>
 Package pdftex.def Info: assets/veel_voorkomend_taylor.png  used on input line 59.
 (pdftex.def)             Requested size: 362.37569pt x 226.91699pt.
-<./storing.pdf, id=44, 614.295pt x 794.97pt>
+<./storing.pdf, id=160, 614.295pt x 794.97pt>
 File: ./storing.pdf Graphic file (type pdf)
 <use ./storing.pdf>
 Package pdftex.def Info: ./storing.pdf  used on input line 72.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
-<assets/storing_solution.png, id=45, 528.47438pt x 549.55313pt>
+<assets/storing_solution.png, id=161, 528.47438pt x 549.55313pt>
 File: assets/storing_solution.png Graphic file (type png)
 <use assets/storing_solution.png>
 Package pdftex.def Info: assets/storing_solution.png  used on input line 79.
@@ -530,111 +530,213 @@ Package pdftex.def Info: assets/storing_solution.png  used on input line 79.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/continu.png (PNG copy)>]
-<assets/radio_solution.png, id=72, 368.1253pt x 516.42938pt>
+<assets/radio_solution.png, id=188, 368.1253pt x 516.42938pt>
 File: assets/radio_solution.png Graphic file (type png)
 <use assets/radio_solution.png>
 Package pdftex.def Info: assets/radio_solution.png  used on input line 104.
 (pdftex.def)             Requested size: 362.37569pt x 508.39832pt.
- [2 <./assets/veel_voorkomend_taylor.png (PNG copy)>] [3 <./storing.pdf>] [4 <./assets/storing_solution.png (PNG copy)>] [5 <./assets/radio_solution.png (PNG copy)>] [6]
-<./exercises/huis_1_ex_1.pdf, id=105, 614.295pt x 794.97pt>
+ [2 <./assets/veel_voorkomend_taylor.png (PNG copy)>] [3 <./storing.pdf>] [4 <./assets/storing_solution.png (PNG copy)>] [5 <./assets/radio_solution.png (PNG copy)>]
+<images/ex_lin_on.png, id=213, 573.14125pt x 108.405pt>
+File: images/ex_lin_on.png Graphic file (type png)
+<use images/ex_lin_on.png>
+Package pdftex.def Info: images/ex_lin_on.png  used on input line 170.
+(pdftex.def)             Requested size: 362.37569pt x 68.54196pt.
+ [6 <./images/ex_lin_on.png (PNG copy)>]
+<./gram.pdf, id=222, 614.295pt x 794.97pt>
+File: ./gram.pdf Graphic file (type pdf)
+<use ./gram.pdf>
+Package pdftex.def Info: ./gram.pdf  used on input line 207.
+(pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
+ [7 <./gram.pdf>]
+<assets/kolom_rij_null.png, id=234, 486.31688pt x 621.82312pt>
+File: assets/kolom_rij_null.png Graphic file (type png)
+<use assets/kolom_rij_null.png>
+Package pdftex.def Info: assets/kolom_rij_null.png  used on input line 242.
+(pdftex.def)             Requested size: 362.37569pt x 463.34892pt.
+<./projector.pdf, id=236, 614.295pt x 794.97pt>
+File: ./projector.pdf Graphic file (type pdf)
+<use ./projector.pdf>
+Package pdftex.def Info: ./projector.pdf  used on input line 280.
+(pdftex.def)             Requested size: 430.31812pt x 556.88763pt.
+ [8] [9 <./assets/kolom_rij_null.png (PNG copy)>] [10 <./projector.pdf>]
+<./images/rotation.png, id=260, 697.60625pt x 103.38625pt>
+File: ./images/rotation.png Graphic file (type png)
+<use ./images/rotation.png>
+Package pdftex.def Info: ./images/rotation.png  used on input line 342.
+(pdftex.def)             Requested size: 317.07614pt x 46.99033pt.
+<./rotation.pdf, id=261, 614.295pt x 794.97pt>
+File: ./rotation.pdf Graphic file (type pdf)
+<use ./rotation.pdf>
+Package pdftex.def Info: ./rotation.pdf  used on input line 350.
+(pdftex.def)             Requested size: 317.07614pt x 410.32996pt.
+<./images/mult.jpg, id=263, 3035.34pt x 4047.12pt>
+File: ./images/mult.jpg Graphic file (type jpg)
+<use ./images/mult.jpg>
+Package pdftex.def Info: ./images/mult.jpg  used on input line 368.
+(pdftex.def)             Requested size: 430.31812pt x 573.75641pt.
+ [11 <./images/rotation.png (PNG copy)>] [12 <./rotation.pdf>] [13 <./images/mult.jpg>]
+<./images/jordan.png, id=289, 182.6825pt x 145.54375pt>
+File: ./images/jordan.png Graphic file (type png)
+<use ./images/jordan.png>
+Package pdftex.def Info: ./images/jordan.png  used on input line 391.
+(pdftex.def)             Requested size: 430.31812pt x 342.88284pt.
+<./images/ex_joran.png, id=291, 168.63pt x 88.33pt>
+File: ./images/ex_joran.png Graphic file (type png)
+<use ./images/ex_joran.png>
+Package pdftex.def Info: ./images/ex_joran.png  used on input line 399.
+(pdftex.def)             Requested size: 430.31812pt x 225.40965pt.
+<./images/sol_jordan.png, id=293, 598.235pt x 300.12125pt>
+File: ./images/sol_jordan.png Graphic file (type png)
+<use ./images/sol_jordan.png>
+Package pdftex.def Info: ./images/sol_jordan.png  used on input line 409.
+(pdftex.def)             Requested size: 430.31812pt x 215.88564pt.
+<./images/jordan_ex_2.png, id=295, 629.35126pt x 446.66875pt>
+File: ./images/jordan_ex_2.png Graphic file (type png)
+<use ./images/jordan_ex_2.png>
+Package pdftex.def Info: ./images/jordan_ex_2.png  used on input line 420.
+(pdftex.def)             Requested size: 430.31812pt x 305.40736pt.
+<./images/diag.png, id=297, 265.99374pt x 142.5325pt>
+File: ./images/diag.png Graphic file (type png)
+<use ./images/diag.png>
+Package pdftex.def Info: ./images/diag.png  used on input line 436.
+(pdftex.def)             Requested size: 430.31812pt x 230.60558pt.
+<./images/fibo.png, id=299, 744.7825pt x 916.42375pt>
+File: ./images/fibo.png Graphic file (type png)
+<use ./images/fibo.png>
+Package pdftex.def Info: ./images/fibo.png  used on input line 456.
+(pdftex.def)             Requested size: 430.31812pt x 529.49855pt.
+ [14 <./images/jordan.png>] [15 <./images/ex_joran.png (PNG copy)> <./images/sol_jordan.png (PNG copy)>] [16 <./images/jordan_ex_2.png (PNG copy)> <./images/diag.png (PNG copy)>] [17 <./images/fibo.png (PNG copy)>]
+<./images/markov.png, id=326, 683.55376pt x 156.585pt>
+File: ./images/markov.png Graphic file (type png)
+<use ./images/markov.png>
+Package pdftex.def Info: ./images/markov.png  used on input line 482.
+(pdftex.def)             Requested size: 430.31812pt x 98.57738pt.
+<./markov.pdf, id=327, 614.295pt x 794.97pt>
+File: ./markov.pdf Graphic file (type pdf)
+<use ./markov.pdf>
+Package pdftex.def Info: ./markov.pdf  used on input line 490.
+(pdftex.def)             Requested size: 430.31812pt x 556.88763pt.
+<./images/matrix_expo.png, id=329, 351.3125pt x 137.51375pt>
+File: ./images/matrix_expo.png Graphic file (type png)
+<use ./images/matrix_expo.png>
+Package pdftex.def Info: ./images/matrix_expo.png  used on input line 514.
+(pdftex.def)             Requested size: 430.31812pt x 168.45267pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 532.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `superscript' on input line 532.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 532.
+
+<./images/something.png, id=331, 750.805pt x 422.57875pt>
+File: ./images/something.png Graphic file (type png)
+<use ./images/something.png>
+Package pdftex.def Info: ./images/something.png  used on input line 538.
+(pdftex.def)             Requested size: 430.31812pt x 242.20068pt.
+[18 <./images/markov.png (PNG copy)>] [19 <./markov.pdf>] [20 <./images/matrix_expo.png (PNG copy)> <./images/something.png (PNG copy)>] [21]
+<./exercises/huis_1_ex_1.pdf, id=362, 614.295pt x 794.97pt>
 File: ./exercises/huis_1_ex_1.pdf Graphic file (type pdf)
 <use ./exercises/huis_1_ex_1.pdf>
-Package pdftex.def Info: ./exercises/huis_1_ex_1.pdf  used on input line 215.
+Package pdftex.def Info: ./exercises/huis_1_ex_1.pdf  used on input line 634.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<./exercises/huis_1_ex_2.pdf, id=106, 614.295pt x 794.97pt>
+<./exercises/huis_1_ex_2.pdf, id=363, 614.295pt x 794.97pt>
 File: ./exercises/huis_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/huis_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/huis_1_ex_2.pdf  used on input line 221.
+Package pdftex.def Info: ./exercises/huis_1_ex_2.pdf  used on input line 640.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<assets/huis_1_ex_3.png, id=107, 405.01312pt x 312.41719pt>
+<assets/huis_1_ex_3.png, id=364, 405.01312pt x 312.41719pt>
 File: assets/huis_1_ex_3.png Graphic file (type png)
 <use assets/huis_1_ex_3.png>
-Package pdftex.def Info: assets/huis_1_ex_3.png  used on input line 229.
+Package pdftex.def Info: assets/huis_1_ex_3.png  used on input line 648.
 (pdftex.def)             Requested size: 362.37569pt x 279.53297pt.
-<assets/huis_1_ex_4.png, id=108, 377.15906pt x 344.78813pt>
+<assets/huis_1_ex_4.png, id=365, 377.15906pt x 344.78813pt>
 File: assets/huis_1_ex_4.png Graphic file (type png)
 <use assets/huis_1_ex_4.png>
-Package pdftex.def Info: assets/huis_1_ex_4.png  used on input line 237.
+Package pdftex.def Info: assets/huis_1_ex_4.png  used on input line 656.
 (pdftex.def)             Requested size: 271.7835pt x 248.45769pt.
- [7 <./exercises/huis_1_ex_1.pdf>] [8 <./exercises/huis_1_ex_2.pdf>] [9 <./assets/huis_1_ex_3.png (PNG copy)> <./assets/huis_1_ex_4.png (PNG copy)>]
-<./exercises/wc_1_ex_1.pdf, id=137, 614.295pt x 794.97pt>
+ [22 <./exercises/huis_1_ex_1.pdf>] [23 <./exercises/huis_1_ex_2.pdf>] [24 <./assets/huis_1_ex_3.png (PNG copy)> <./assets/huis_1_ex_4.png (PNG copy)>]
+<./exercises/wc_1_ex_1.pdf, id=393, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_1.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_1.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_1.pdf  used on input line 248.
+Package pdftex.def Info: ./exercises/wc_1_ex_1.pdf  used on input line 667.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<./exercises/wc_1_ex_2.pdf, id=138, 614.295pt x 794.97pt>
+<./exercises/wc_1_ex_2.pdf, id=394, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_2.pdf  used on input line 254.
+Package pdftex.def Info: ./exercises/wc_1_ex_2.pdf  used on input line 673.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<images/wc1_a3.png, id=139, 521.95pt x 607.26875pt>
+<images/wc1_a3.png, id=395, 521.95pt x 607.26875pt>
 File: images/wc1_a3.png Graphic file (type png)
 <use images/wc1_a3.png>
-Package pdftex.def Info: images/wc1_a3.png  used on input line 260.
+Package pdftex.def Info: images/wc1_a3.png  used on input line 679.
 (pdftex.def)             Requested size: 362.37569pt x 421.61041pt.
-<./exercises/wc_1_ex_3.pdf, id=140, 614.295pt x 794.97pt>
+<./exercises/wc_1_ex_3.pdf, id=396, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_3.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_3.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_3.pdf  used on input line 268.
+Package pdftex.def Info: ./exercises/wc_1_ex_3.pdf  used on input line 685.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
- [10 <./exercises/wc_1_ex_1.pdf>] [11 <./exercises/wc_1_ex_2.pdf>] [12 <./images/wc1_a3.png (PNG copy)>] [13 <./exercises/wc_1_ex_3.pdf>]
-<./exercises/bordles_1.pdf, id=175, 614.295pt x 794.97pt>
+ [25 <./exercises/wc_1_ex_1.pdf>] [26 <./exercises/wc_1_ex_2.pdf>] [27 <./images/wc1_a3.png (PNG copy)>] [28 <./exercises/wc_1_ex_3.pdf>]
+<./exercises/bordles_1.pdf, id=430, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1.pdf>
-Package pdftex.def Info: ./exercises/bordles_1.pdf  used on input line 279.
+Package pdftex.def Info: ./exercises/bordles_1.pdf  used on input line 694.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<images/ex_2_a.png, id=176, 494.84875pt x 731.73375pt>
+<images/ex_2_a.png, id=431, 494.84875pt x 731.73375pt>
 File: images/ex_2_a.png Graphic file (type png)
 <use images/ex_2_a.png>
-Package pdftex.def Info: images/ex_2_a.png  used on input line 285.
+Package pdftex.def Info: images/ex_2_a.png  used on input line 700.
 (pdftex.def)             Requested size: 362.37569pt x 535.84717pt.
-<./exercises/bordles_1_ex_2.pdf, id=177, 614.295pt x 794.97pt>
+<./exercises/bordles_1_ex_2.pdf, id=432, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/bordles_1_ex_2.pdf  used on input line 291.
+Package pdftex.def Info: ./exercises/bordles_1_ex_2.pdf  used on input line 706.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
-<images/pl_1_answer_3.png, id=178, 471.7625pt x 765.86125pt>
+<images/pl_1_answer_3.png, id=433, 471.7625pt x 765.86125pt>
 File: images/pl_1_answer_3.png Graphic file (type png)
 <use images/pl_1_answer_3.png>
-Package pdftex.def Info: images/pl_1_answer_3.png  used on input line 297.
+Package pdftex.def Info: images/pl_1_answer_3.png  used on input line 712.
 (pdftex.def)             Requested size: 452.9679pt x 735.35869pt.
 
 
-LaTeX Warning: Float too large for page by 88.79626pt on input line 299.
+LaTeX Warning: Float too large for page by 88.79626pt on input line 714.
 
-<images/plot_2.png, id=179, 1395.2125pt x 712.6625pt>
+<images/plot_2.png, id=434, 1395.2125pt x 712.6625pt>
 File: images/plot_2.png Graphic file (type png)
 <use images/plot_2.png>
-Package pdftex.def Info: images/plot_2.png  used on input line 303.
+Package pdftex.def Info: images/plot_2.png  used on input line 718.
 (pdftex.def)             Requested size: 452.9679pt x 231.37334pt.
-<./exercises/bordles_1_ex_3.pdf, id=180, 614.295pt x 794.97pt>
+<./exercises/bordles_1_ex_3.pdf, id=435, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1_ex_3.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1_ex_3.pdf>
-Package pdftex.def Info: ./exercises/bordles_1_ex_3.pdf  used on input line 309.
+Package pdftex.def Info: ./exercises/bordles_1_ex_3.pdf  used on input line 724.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
-[14 <./exercises/bordles_1.pdf>] [15 <./images/ex_2_a.png (PNG copy)>] [16 <./exercises/bordles_1_ex_2.pdf>] [17 <./images/pl_1_answer_3.png (PNG copy)>] [18 <./images/plot_2.png (PNG copy)>] [19 <./exercises/bordles_1_ex_3.pdf>] (./main.aux)
+[29 <./exercises/bordles_1.pdf>] [30 <./images/ex_2_a.png (PNG copy)>] [31 <./exercises/bordles_1_ex_2.pdf>] [32 <./images/pl_1_answer_3.png (PNG copy)>] [33 <./images/plot_2.png (PNG copy)>] [34 <./exercises/bordles_1_ex_3.pdf>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 840F170D98F10A65CB5165CD434C1AB0;1843.
+(rerunfilecheck)             Checksum: 5586513D98EF568E4E411E6D400D570C;7548.
  ) 
 Here is how much of TeX's memory you used:
- 20556 strings out of 476106
- 384001 string characters out of 5793932
+ 20800 strings out of 476106
+ 388937 string characters out of 5793932
  1936975 words of memory out of 5000000
- 42173 multiletter control sequences out of 15000+600000
- 563452 words of font info for 55 fonts, out of 8000000 for 9000
+ 42347 multiletter control sequences out of 15000+600000
+ 564239 words of font info for 58 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 102i,6n,107p,536b,446s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (19 pages, 1196739 bytes).
+ 102i,8n,107p,536b,471s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (34 pages, 3202380 bytes).
 PDF statistics:
- 296 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
-
- 10000000)
+ 573 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
+ 129 named destinations out of 1000 (max. 500000)
+ 489 words of extra memory for PDF output out of 10000 (max. 10000000)
 
