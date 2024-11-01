@@ -4,6 +4,7 @@
 \usepackage{parskip} % Package to tweak paragraph skipping
 \usepackage{tikz} % Package for drawing
 \usepackage{amsmath}
+\usepackage{float}
 \usepackage{hyperref}
 \usepackage{pdfpages} % For inserting entire pages from a PDF
 \usepackage{graphicx} % For including images
@@ -572,7 +573,124 @@ Als we compressie willen uitvoeren moeten we essentially SVD uitvoeren, maar onz
 
 $A = \sum_{i=1}^{r'} \sigma_i u_i v_i^T$
 
+## Hoofdstuk 3: Integratie en afleiding in $R^n$
 
+### Partiele afgeleiden
+
+$D_i f(x_1, x_2, ... x_n) = \frac{\partial f}{\partial x_i}$
+
+#### Example
+
+![](./images/partial.png)
+
+![](./partial.pdf)
+
+
+**Higher order partial derivatives**:
+
+Basically hetzelfde, doe het gewoon na elkaar, van binnen naar buiten
+
+![](./images/partial_2.png)
+
+![](./partial_2.pdf)
+
+
+### Kettingregel
+
+When deriving, make sure to derive the respected variable as well.
+
+### Coordinaten transformaties
+
+Hier gaan we de coordinaten transformeren naar een andere coordinatenstelsel. (om het probleem zo gemakkelijk mogelijk te maken)
+
+#### Example
+
+![](./images/coordinaten.png)
+
+1. Calculeer de $\rho$ en $\theta$ naar x en y
+2. vorm de chain rule: $\frac{\partial}{\partial x} = \frac{\partial \rho}{\partial x} \frac{\partial}{\partial \rho} + \frac{\partial \theta}{\partial x} \frac{\partial}{\partial \theta}$
+3. doe hetzelfde voor met respect tot y.
+4. Vermenigvuldig twee maal met elkaar door de dubbele afgeleide
+5. som met elkaar
+6. Je hebt nu de laplacian
+
+### Gradient en de differentiaal
+
+**gradient operator**: $\nabla = \sum_{i=1}^{n} e_i \partial_i$
+
+Via deze gradient kunnen we de richtingsafgeleide berekenen (variatie van een functie langs een kromme)
+
+$\nabla f . \frac{dx}{dt}$
+
+### Example
+
+![](./images/gradient.png)
+
+Hier zien we dat de gradient $\nabla = (\partial_x, \partial_y)$ = (1, 1) (want f(x, y) = x + y)
+
+de richtingsafgeleide is dan $\nabla * f * \frac{d}{dt}$ = (1, 1) * (x_0, y_0) = x_0 + y_0
+
+Als je de integraal pakt van t = 0 naar t = 1: $\int_0^1 x_0 + y_0 dt = x_0 + y_0$
+
+> De gradient operator en richtingsafgeleide wordt gebruikt bij zaken zoals stochastic gradient descent, waar we proberen de lokale minima te vinden.
+
+#### Example
+
+![](./images/gradient_2.png)
+
+1. Calculate the gradient
+
+$\nabla f = (\partial_x, \partial_y) = (y, x)$
+
+onze veldijn: $c = xy$
+Note: We willen uiteindelijk kunnen zeggen dat onze richtingsafgeleide = 0, we hebben dus **dx** nodig
+
+$y = \frac{c}{x}$
+
+$dy = - \frac{c}{x^2} dx$
+
+We weten ook dat onze displacement along the kromme $dx = (dx, dy)$
+
+We weten nu wel $dy$ dus we vullen dit in: $dx = (dx, - \frac{c}{x^2} dx) = dx(1, - \frac{c}{x^2})$
+
+We weten ook wat c is: $dx(1, - \frac{xy}{x^2}) = dx(1, - \frac{y}{x})$
+
+Nu dat we de displacement hebben, vinden we de richtingsafgeleide:
+
+$\nabla f * dx = (y, x) * dx(1, - \frac{y}{x}) = ydx - ydx = 0$
+
+### Taylorreeks
+
+![](./images/taylor_afgeleid.png)
+
+Als wij $\triangle_{xi}$ (tweede term van taylorreeks), zien we $\nabla f * \triangle_{xi}$
+
+Dit is een stationair punt wanneer $\nabla f = 0$
+
+Er zijn hierbij 3 gevallen voor 1 variable:
+
+- $\frac{\partial^2 f}{\partial x_i^2} > 0$ => minimum
+- $\frac{\partial^2 f}{\partial x_i^2} < 0$ => maximum
+- $\frac{\partial^2 f}{\partial x_i^2} = 0$ => saddle point (stationair buigpunt)
+
+Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de tweede orde term van de taylorreeks:
+
+- Hessiaan is symmetrisch, dus $H = O D O^T$
+
+![](./images/hessiaan.png)
+
+- als alle $\lambda_i > 0$ => minimum
+- als alle $\lambda_i < 0$ => maximum
+- als er zowel positieve als negatieve $\lambda_i$ zijn => saddle point
+- als er eigenwaarden zijn die = 0, dan krijg je in sommige richtingen een stationair buigpunt gedefinieerd door de derde orde vorm van taylorreeks
+
+#### Example
+
+![](./images/hessian_ex.png)
+
+![](./images/hessian_my.jpg)
+
+![maple solution](./hessian.pdf)
 
 \section*{Formularium}
 
@@ -873,7 +991,7 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_1.png}
 	\caption{Bord 2 Exercise 5 Part 1}
@@ -881,7 +999,7 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_2.png}
 	\caption{Bord 2 Exercise 5 Part 2}
@@ -889,21 +1007,21 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_3.png}
 	\caption{Bord 2 Exercise 5 Part 3}
 	\label{fig:bord_2_ex_5_part_3}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/wc_2_ex_1.png}
 	\caption{WC 2 Exercise 1}
 	\label{fig:wc_2_ex_1}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{exercises/wc_2_ex_2.pdf}
 	\caption{WC 2 Exercise 2}
@@ -911,18 +1029,127 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/wc_2_ex_2_maple.png}
 	\caption{WC 2 Exercise 2 Maple}
 	\label{fig:wc_2_ex_2_maple}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{exercises/wc_2_ex_3.pdf}
 	\caption{WC 2 Exercise 3 Maple}
 	\label{fig:wc_2_ex_3_maple}
+\end{figure}
+
+\newpage
+\subsection*{Huis 3}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_3_ex_1.pdf}
+	\caption{Huis 3 Exercise 1}
+	\label{fig:huis_3_ex_1_Maple}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_1.png}
+	\caption{Huis 3 Exercise 1}
+	\label{fig:huis_3_ex_1}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_2.png}
+	\caption{Huis 3 Exercise 2}
+	\label{fig:huis_3_ex_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_3_ex_2.pdf}
+	\caption{Huis 3 Exercise 2}
+	\label{fig:huis_3_ex_2_Maple}
+\end{figure}
+
+// Exercise 3
+\includepdf[pages=-]{exercises/huis_3_ex_3.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_3_ex_4.pdf}
+	\caption{Huis 3 Exercise 4}
+	\label{fig:huis_3_ex_4_Maple}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:huis_3_ex_5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_6.png}
+	\caption{Exercise 6}
+	\label{fig:huis_3_ex_6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_7.png}
+	\caption{Exercise 7}
+	\label{fig:huis_3_ex_7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_3_ex_8.pdf}
+	\caption{Exercise 8}
+	\label{fig:huis_3_ex_8}
+\end{figure}
+
+// Exercise 9
+\includepdf[pages=-]{exercises/huis_3_ex_9.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/bord_3_ex_1.pdf}
+	\caption{Exercise 1}
+	\label{fig:bord_3_ex_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/bord_3_ex_2.pdf}
+	\caption{Exercise 2}
+	\label{fig:bord_3_ex_2}
+\end{figure}
+
+// Exercise 3
+\includepdf[pages=-]{exercises/bord_3_ex_3.pdf}
+
+// Exercise 1
+\includepdf[pages=-]{exercises/wc_3_ex_1.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/wc_3_ex_2.pdf}
+	\caption{Exercise 2}
+	\label{fig:wc_3_ex_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/wc_3_ex_3.pdf}
+	\caption{Exercise 3}
+	\label{fig:wc_3_ex_3}
 \end{figure}
 
 \end{document}
