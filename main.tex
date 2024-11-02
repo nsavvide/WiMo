@@ -573,77 +573,120 @@ Als we compressie willen uitvoeren moeten we essentially SVD uitvoeren, maar onz
 
 $A = \sum_{i=1}^{r'} \sigma_i u_i v_i^T$
 
-## Hoofdstuk 3: Integratie en afleiding in $R^n$
+\section{Hoofdstuk 3: Integratie en afleiding in $R^n$}
 
-### Partiele afgeleiden
+\subsection{Partiele afgeleiden}
 
 $D_i f(x_1, x_2, ... x_n) = \frac{\partial f}{\partial x_i}$
 
-#### Example
+\subsubsection{Example}
 
-![](./images/partial.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/partial.png}
+	\end{center}
+	\caption{Partial derivatives example}
+	\label{}
+\end{figure}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./partial.pdf}
+	\end{center}
+	\caption{Partial derivatives example}
+	\label{}
+\end{figure}
 
-![](./partial.pdf)
-
-
-**Higher order partial derivatives**:
+\textbf{Higher order partial derivatives}:
 
 Basically hetzelfde, doe het gewoon na elkaar, van binnen naar buiten
 
-![](./images/partial_2.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/partial_2.png}
+	\end{center}
+	\caption{Partial derivatives example}
+	\label{}
+\end{figure}
 
-![](./partial_2.pdf)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./partial_2.pdf}
+	\end{center}
+	\caption{Partial derivatives example}
+	\label{}
+\end{figure}
 
-
-### Kettingregel
+\subsection{Kettingregel}
 
 When deriving, make sure to derive the respected variable as well.
 
-### Coordinaten transformaties
+\subsection{Coordinaten transformaties}
 
 Hier gaan we de coordinaten transformeren naar een andere coordinatenstelsel. (om het probleem zo gemakkelijk mogelijk te maken)
 
-#### Example
+\subsubsection{Example}
 
-![](./images/coordinaten.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/coordinaten.png}
+	\end{center}
+	\caption{Coordinaten transformaties}
+	\label{}
+\end{figure}
 
 1. Calculeer de $\rho$ en $\theta$ naar x en y
+
 2. vorm de chain rule: $\frac{\partial}{\partial x} = \frac{\partial \rho}{\partial x} \frac{\partial}{\partial \rho} + \frac{\partial \theta}{\partial x} \frac{\partial}{\partial \theta}$
+
 3. doe hetzelfde voor met respect tot y.
+
 4. Vermenigvuldig twee maal met elkaar door de dubbele afgeleide
+
 5. som met elkaar
-6. Je hebt nu de laplacian
 
-### Gradient en de differentiaal
+6. Je hebt nu de laplacian ($\nabla^2 f = \frac{\partial^2 f}{\partial x^2} + \frac{\partial^2 f}{\partial y^2} + \frac{\partial^2 f}{\partial z^2}$)
 
-**gradient operator**: $\nabla = \sum_{i=1}^{n} e_i \partial_i$
+\subsection{Gradient en de differentiaal}
+
+\textbf{gradient operator}: $\nabla = \sum_{i=1}^{n} e_i \partial_i$
 
 Via deze gradient kunnen we de richtingsafgeleide berekenen (variatie van een functie langs een kromme)
 
 $\nabla f . \frac{dx}{dt}$
 
-### Example
+\subsubsection{Example}
 
-![](./images/gradient.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/gradient.png}
+	\end{center}
+	\caption{Gradient example}
+	\label{}
+\end{figure}
 
 Hier zien we dat de gradient $\nabla = (\partial_x, \partial_y)$ = (1, 1) (want f(x, y) = x + y)
 
-de richtingsafgeleide is dan $\nabla * f * \frac{d}{dt}$ = (1, 1) * (x_0, y_0) = x_0 + y_0
+de richtingsafgeleide is dan $\nabla f . \frac{dx}{dt} = (1, 1) . (x_0, y_0) = x_0 + y_0$
 
 Als je de integraal pakt van t = 0 naar t = 1: $\int_0^1 x_0 + y_0 dt = x_0 + y_0$
 
-> De gradient operator en richtingsafgeleide wordt gebruikt bij zaken zoals stochastic gradient descent, waar we proberen de lokale minima te vinden.
+De gradient operator en richtingsafgeleide wordt gebruikt bij zaken zoals stochastic gradient descent, waar we proberen de lokale minima te vinden.
 
-#### Example
-
-![](./images/gradient_2.png)
+\subsubsection{Example}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/gradient_2.png}
+	\end{center}
+	\caption{Gradient example}
+	\label{}
+\end{figure}
 
 1. Calculate the gradient
 
 $\nabla f = (\partial_x, \partial_y) = (y, x)$
 
 onze veldijn: $c = xy$
-Note: We willen uiteindelijk kunnen zeggen dat onze richtingsafgeleide = 0, we hebben dus **dx** nodig
+Note: We willen uiteindelijk kunnen zeggen dat onze richtingsafgeleide = 0, we hebben dus \textbf{dx} nodig
 
 $y = \frac{c}{x}$
 
@@ -657,40 +700,183 @@ We weten ook wat c is: $dx(1, - \frac{xy}{x^2}) = dx(1, - \frac{y}{x})$
 
 Nu dat we de displacement hebben, vinden we de richtingsafgeleide:
 
-$\nabla f * dx = (y, x) * dx(1, - \frac{y}{x}) = ydx - ydx = 0$
+$\nabla f . dx = (y, x) . dx(1, - \frac{y}{x}) = ydx - ydx = 0$
 
-### Taylorreeks
+Dus hebben we bewezen dat de gradient $\nabla f$ loodrecht staat op de kromme.
 
-![](./images/taylor_afgeleid.png)
+\subsection{Taylorreeks}
 
-Als wij $\triangle_{xi}$ (tweede term van taylorreeks), zien we $\nabla f * \triangle_{xi}$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/taylor_afgeleid.png}
+	\end{center}
+	\caption{Taylorreeks bij afgeleiden}
+	\label{}
+\end{figure}
 
-Dit is een stationair punt wanneer $\nabla f = 0$
+Als $\triangle_{xi}$ (tweede term van taylorreeks), we $\nabla f . \triangle_{xi}$
+
+Dit is een \textbf{stationair punt} wanneer $\nabla f = 0$
 
 Er zijn hierbij 3 gevallen voor 1 variable:
 
-- $\frac{\partial^2 f}{\partial x_i^2} > 0$ => minimum
-- $\frac{\partial^2 f}{\partial x_i^2} < 0$ => maximum
-- $\frac{\partial^2 f}{\partial x_i^2} = 0$ => saddle point (stationair buigpunt)
+- $\frac{\partial^2 f}{\partial x_i^2} > 0$ (minimum)
 
-Voor meerdere variablen, maken we gebruik van de Hessiaan dat voorkomt in de tweede orde term van de taylorreeks:
+- $\frac{\partial^2 f}{\partial x_i^2} < 0$ (maximum)
+
+- $\frac{\partial^2 f}{\partial x_i^2} = 0$ (saddle point (stationair buigpunt))
+
+Voor meerdere variablen, maken we gebruik van de \textbf{Hessiaan} dat voorkomt in de tweede orde term van de taylorreeks:
 
 - Hessiaan is symmetrisch, dus $H = O D O^T$
 
-![](./images/hessiaan.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/hessiaan.png}
+	\end{center}
+	\caption{Hessiaan}
+	\label{}
+\end{figure}
 
-- als alle $\lambda_i > 0$ => minimum
-- als alle $\lambda_i < 0$ => maximum
-- als er zowel positieve als negatieve $\lambda_i$ zijn => saddle point
+- als alle $\lambda_i > 0$ (minimum)
+
+- als alle $\lambda_i < 0$ (maximum)
+
+- als er zowel positieve als negatieve $\lambda_i$ zijn (saddle point)
+
 - als er eigenwaarden zijn die = 0, dan krijg je in sommige richtingen een stationair buigpunt gedefinieerd door de derde orde vorm van taylorreeks
 
-#### Example
+\subsubsection{Example}
 
-![](./images/hessian_ex.png)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/hessian_ex.png}
+	\end{center}
+	\caption{Hessiaan}
+	\label{}
+\end{figure}
 
-![](./images/hessian_my.jpg)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./images/hessian_my.jpg}
+	\end{center}
+	\caption{Hessiaan}
+	\label{}
+\end{figure}
 
-![maple solution](./hessian.pdf)
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.95\textwidth]{./hessian.pdf}
+	\end{center}
+	\caption{Hessiaan}
+	\label{}
+\end{figure}
+
+\subsection{Integratie}
+
+\subsubsection{De riemanniaanse integraal}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/integralen_uitleg.png}
+	\caption{Integratie uitleg}
+	\label{fig:integralen_uitleg}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/integraal_oppervalk.png}
+	\caption{Integraal oppervlak}
+	\label{fig:integraal_oppervalk}
+\end{figure}
+
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/circkel_oppervlak.png}
+	\caption{Cirkel oppervlak}
+	\label{fig:circkel_oppervlak}
+\end{figure}
+
+Dit kan ook via de (x, y) coordinaten, waarbij de cirkel wordt voorgesteld door: $x^2 + y^2 = r^2$, dan krijg je:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/oppervlak_cirkel_x_y.png}
+	\caption{Oppervlak cirkel x, y}
+	\label{fig:oppervlak_cirkel_x_y}
+\end{figure}
+
+We kunnen ook volumes bereken, is basically een triple integraal...
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/volume_vraag.png}
+	\caption{Volume vraag}
+	\label{fig:volume_vraag}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/volume_sol.png}
+	\caption{Volume solution}
+	\label{fig:volume_sol}
+\end{figure}
+
+Een paar typische toepassingen zijn:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/typische_integralen.png}
+	\caption{Typische integralen}
+	\label{fig:typische_integralen}
+\end{figure}
+
+\subsection{Verandering integratievariabelen}
+
+Basically we willen de integraal veranderen van coordinatenstelsel. Dit kan via de Jacobiaan.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_coordinaten_transfo_integralen.png}
+	\caption{Voorbeeld coordinaten transformatie}
+	\label{fig:voorbeeld_coordinaten_transfo_integralen}
+\end{figure}
+
+
+\subsection{Pool-, cilinder- en bolcoordinaten}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/pool_cilinder_bol_coordinaten.png}
+	\caption{Pool, cilinder en bol coordinaten}
+	\label{fig:pool_cilinder_bol_coordinaten}
+\end{figure}
+
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_pool_coordinaten.png}
+	\caption{Voorbeeld pool coordinaten}
+	\label{fig:voorbeeld_pool_coordinaten}
+\end{figure}
 
 \section*{Formularium}
 
@@ -744,6 +930,9 @@ $\frac{u\dot v}{||u|| ||v||} = cos(\theta)$ // Hoek tussen twee vectoren
 
 $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 
+\subsection*{Matrixen}
+
+- Jacobiaan: $J = \begin{bmatrix} \frac{\partial x}{\partial u} & \frac{\partial x}{\partial v} \\ \frac{\partial y}{\partial u} & \frac{\partial y}{\partial v} \end{bmatrix}$
 
 \section*{Oefeningen}
 
@@ -1151,5 +1340,7 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 	\caption{Exercise 3}
 	\label{fig:wc_3_ex_3}
 \end{figure}
+
+\end{document}
 
 \end{document}
