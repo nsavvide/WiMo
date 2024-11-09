@@ -5,7 +5,7 @@
 \usepackage{tikz} % Package for drawing
 \usepackage{amsmath}
 \usepackage{float}
-\usepackage{hyperref}
+% \usepackage{hyperref}
 \usepackage{pdfpages} % For inserting entire pages from a PDF
 \usepackage{graphicx} % For including images
 
@@ -878,6 +878,421 @@ Basically we willen de integraal veranderen van coordinatenstelsel. Dit kan via 
 	\label{fig:voorbeeld_pool_coordinaten}
 \end{figure}
 
+\section{Hoofdstuk 4: Vectoranalyse in drie dimensies }
+
+\subsection{Vectoren en vector bewerkingen}
+
+\subsubsection{Scalair product, norm, afstand}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/termen_h4.png}
+	\caption{Definities}
+	\label{fig:termen_h4}
+\end{figure}
+
+Belangrijk om te weten is dat $w = u \times v$ de vector is die loodrecht staat op $u$ en $v$.
+
+\textbf{Triple product}: $u \times (v \times w) =  (u . w) . v - (u . v) . w$
+
+\subsection{Vector velden en vectoriele afleiding}
+
+\subsubsection{Vector- en scalaire velden: Maxwell en Navier-Stokes}
+
+Hier een paar vergelijkingen die je \textbf{niet} moet kennen maar wel moet kunnen bewijzen:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/maxwell.png}
+	\caption{Maxwell laws}
+	\label{fig:maxwell}
+\end{figure}
+
+De navier-stokes vergelijkingen beschrijven gas/liquid flow en zijn als volgt:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/navier_stokes.png}
+	\caption{Navier-Stokes}
+	\label{fig:navier_stokes}
+\end{figure}
+
+\subsubsection{Conservatieve velden}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/conservatieve_velden.png}
+	\caption{Conservatieve velden}
+	\label{fig:conservatieve_velden}
+\end{figure}
+
+Een vectorveld wordt conservatief genoemd wanneer deze kan herschreven worden als een gradient van een scalair veld $\phi$
+
+$F = \nabla \phi$
+
+Samengevat: voor een ESG (enkelvoudig samenhangend gebied) is een vectorveld conservatief als de rotor = 0, $\nabla \times F = 0$. Hierbij hebben we dan ook het feit dat het vectorveld conservatief is: $F = \nabla \phi$
+
+\textbf{ESG} btw is een gebied die we kunnen herleiden tot een punt. Dus stel er is een paal midden in het gebied, is dit geen ESG want we de paal staat in de weg!
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/ESG.png}
+	\caption{ESG}
+	\label{fig:esg}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_rotor_conservatief.png}
+	\caption{Voorbeeld rotor conservatief}
+	\label{fig:voorbeeld_rotor_conservatief}
+\end{figure}
+
+
+\subsubsection{The Fab Four: gradient, divergentie, laplaciaan, rotor}
+
+\begin{enumerate}
+
+	\item Gradient: $\nabla = (\partial_x, \partial_y, \partial_z)$
+	\item Divergentie: Als we de gradient combineren met een vector veld, krijgen we de divergentie. Dit is een scalaire waarde. $\nabla . E = \frac{\partial E_x}{\partial x} + \frac{\partial E_y}{\partial y} + \frac{\partial E_z}{\partial z}$
+	\item Laplaciaan: Is letterlijk gewoon gradient maar twee keer partieel afleiden per component... $\nabla . \nabla = \triangle = \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2} + \frac{\partial^2}{\partial z^2}$
+\end{enumerate}
+
+// Note: De toepassing in de cursus wordt nooit op die manier gegeven... Skip
+
+Nog iets heel belangrijk: \textbf{Rotor}: $\nabla \times E = \begin{bmatrix} e_1 & e_2 & e_3 \\ \partial_x & \partial_y & \partial_z \\ E_x & E_y & E_z \\ \end{bmatrix}$
+
+Als rotor = 0, dan is het veld conservatief.
+
+\subsection{Nabla calculus}
+
+Dit zijn basically a bunch of formulas die je moet kunnen bewijzen:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bewijzen_nabla_calculus.png}
+	\caption{Bewijzen nabla calculus}
+	\label{fig:bewijzen_nabla_calculus}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/sommige_bewijzen_nabla_calculus.png}
+	\caption{Sommige bewijzen nabla calculus}
+	\label{fig:sommige_bewijzen_nabla_calculus}
+\end{figure}
+
+\subsubsection{Solenoïdale vector velden}
+
+\textbf{solenoidal} is wanneer we het volgende hebben: $F = \nabla \times A$ (Hierbij is $F$ dus solenoidal)
+
+Met $A$ het \textbf{Vector potentiaal}.
+
+Wanneer we $\nabla . F = 0$ dan is onze solenoidal vectorveld ook \textbf{divergentie vrij}.
+
+Belangrijk volgende relatie: $F = \nabla \times A$ (solenoidal) $\equiv \nabla . F = 0$ (divergentie vrij)
+
+Zoals bij de Conservatie velden, wanneer het veld niet ESG is, kunnen we niet convergeren naar 1 punt en dus $F \neq \nabla \times A$
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/sinusoidal_example.png}
+	\caption{Sinusoidal example}
+	\label{fig:sinusoidal_example}
+\end{figure}
+
+It's very easy to see that the field is solenoidal, just take gradient and boem $= (0,0,0)$
+
+Then we find $A$:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/solenoide_solution.png}
+	\caption{Solenoide solution}
+	\label{fig:solenoide_solution}
+\end{figure}
+
+\subsubsection{Helmholtz decompositie}
+
+In een ESG kunnen we een vectorveld decomposeren in een solenoidal en een conservatief veld.
+
+$F = \nabla \phi + \nabla \times A$ (eerste term is conservatief, tweede term is solenoidal)
+
+Note: Dit is een \textbf{poissonvergelijking}
+
+Die je kunt berekenen door het volgende te doen:
+
+$\pi(x) = - \int \frac{\rho(x')}{||x - x'|| . 4\pi} d^3 x'$
+
+\subsubsection{Voorbeeld}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/helmholtz_example.png}
+	\caption{Helmholtz example}
+	\label{fig:helmholtz_example}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/helmholtz_maple.png}
+	\caption{Helmholtz maple}
+	\label{fig:helmholtz_maple}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/helmholtz_sol.png}
+	\caption{Helmholtz solution}
+	\label{fig:helmholtz_sol}
+\end{figure}
+
+\subsection{Integratie}
+
+\subsubsection{Lijnintegralen}
+
+Is een integraal over een kromme $C$ waarbij de lijnintegraal niet afhangt van de zin waarmee de kromme wordt doorlopen.
+
+\textbf{[A] Booglengte, dichtheid, massamiddelpunt, ...}:
+
+Stel we willen een koord lengte definieren, dit kunnen we doen door:
+
+$ds = \sqrt{dx . dx}$
+
+met $dx = \frac{dx}{dt} dt$
+
+waarbij $\frac{dx}{dt}$ de \textbf{raakvector} is.
+
+Hierbij mijn notities over het concept:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/notities_lijn_integraal.png}
+	\caption{Notities lijn integraal}
+	\label{fig:notities_lijn_integraal}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_lijn_integraal.png}
+	\caption{Voorbeeld lijn integraal}
+	\label{fig:voorbeeld_lijn_integraal}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/lijnintegraal_solution.png}
+	\caption{Lijnintegraal solution}
+	\label{fig:lijnintegraal_solution}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/example_lijnintegraal_massa_middelpunt.png}
+	\caption{Example lijnintegraal massa middelpunt}
+	\label{fig:example_lijnintegraal_massa_middelpunt}
+\end{figure}
+
+
+\textbf{[B] Vectorvelden: $\int F.dx$, $\int F \times dx$}:
+
+Hier hetzelfde als bij punt [A], maar nu definieren we de volgende integraal:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/integraal_vectorvelden.png}
+	\caption{}
+	\label{fig:integraal_vectorvelden}
+\end{figure}
+
+nog een ander type integraal is de volgende:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/integraal_vector_velden_cross_product.png}
+	\caption{Ingtegraal vector velden type 2}
+	\label{fig:integraal_vector_velden_cross_product}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_lijn_integraal_vectorveld.png}
+	\caption{Voorbeeld lijn integraal vectorveld}
+	\label{fig:voorbeeld_lijn_integraal_vectorveld}
+\end{figure}
+
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_tornado.png}
+	\caption{Voorbeeld tornado}
+	\label{fig:voorbeeld_tornado}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/biost_savant.png}
+	\caption{}
+	\label{fig:biost_savant}
+\end{figure}
+
+\subsection{Oppervlakeintegralen}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/oppervlakte_integraal_uitleg.png}
+	\caption{Oppervlakte integralen: maw, we gaan de oppervlakte in 3D berekenen door $\int \int du dv norm(du \times dv)$}
+	\label{fig:oppervlakte_integraal_uitleg}
+\end{figure}
+
+\subsubsection{Voorbeeld}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_boloppervlak.png}
+	\caption{Voorbeeld boloppervlak}
+	\label{fig:voorbeeld_boloppervlak}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_boloppervlak_oplossing.png}
+	\caption{Voorbeeld boloppervlak oplossing}
+	\label{fig:voorbeeld_boloppervlak_oplossing}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/cilinder_oppervlak_oplossing.png}
+	\caption{Cilinder oppervlak oplossing}
+	\label{fig:cilinder_oppervlak_oplossing}
+\end{figure}
+
+Dan is er ook een toepassing van flux doorheen een oppervlak die kan uitgelegd worden met de volgende afbeelding:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/flux_voorbeeld.png}
+	\caption{Flux voorbeeld}
+	\label{fig:flux_voorbeeld}
+\end{figure}
+
+\subsection{Integratiestellingen}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/IntegratieStellingen.png}
+	\caption{Integratie stellingen}
+	\label{fig:integratiestellingen}
+\end{figure}
+
+
+Hier zien we \textbf{Stokes}, \textbf{divergentiestelling van Gauss}, en \textbf{Stelling van Green}. \textbf{Stokes} is een generalizatie van \textbf{Green}. Het idee van stokes is dat we een 2D integraal die de oppervlakte integraal is van een rotor \textbf{herleidt} tot een lijnintegraal over de rand.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/Stelling van Stokes.png}
+	\caption{Stelling van Stokes}
+	\label{fig:stelling-van-stokes}
+\end{figure}
+
+Nu we weten wat Stokes eigenlijk is, laten we een voorbeeld bezichtigen:
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/stokes_voorbeeld_opgelost.png}
+	\caption{Stokes voorbeeld opgelost}
+	\label{fig:stokes_voorbeeld_opgelost}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/uitleg_green.png}
+	\caption{Uitleg Green}
+	\label{fig:uitleg_green}
+\end{figure}
+
+
+Aan de andere kant heb je de divergentiestelling, waarbij we een 3D volume integraal van de divergentie tot een oppervlak integraal over de randoppervlak kunnen herleiden.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/divergentie_stelling.png}
+	\caption{Divergentie stelling}
+	\label{fig:divergentie_stelling}
+\end{figure}
+
+Of gewoon in formule:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/formule_divergentie_wet.png}
+	\caption{Formule Divergentiestelling}
+	\label{fig:formule_divergentie_wet}
+\end{figure}
+
+Als je dan de stelling van Gauss wilt bekijken wordt het als volgt gedaan:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_gauss_toepassing.png}
+	\caption{Voorbeeld Gauss toepassing}
+	\label{fig:voorbeeld_gauss_toepassing}
+\end{figure}
+
+Zoals de prof het zei: "Ik ben trots op deze figuur". Hier gaan we zien dat de 2 inifitismale oppervlaktes een shared boundary hebben, deze worden te niet gezien, waardoor je uiteindelijk 1 lijn integraal krijgt over die twee vlakjes, extrapoleer nu naar de rest en zo bewijs je dus dat \textbf{Stokes} een Top G is.
+Btw, de rechterhand regel leert ons dan welke teken de lijnintegraal nodig heeft.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/inzicht_integraalstellingen.png}
+	\caption{Inzicht integratie stellingen}
+	\label{fig:inzicht_integraalstellingen}
+\end{figure}
+
+\subsection{Toepassing: Continuiteitsvergelijking}
+
+Het komt erop neer dat dit fysische toepassingen zijn waarbij we de wet van behoud van massa toepassen. Dit is een toepassing van de divergentiestelling. (een voorbeeld)
+
+Het ander voorbeeld is behoudt van lading:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/lading.png}
+	\caption{Lading}
+	\label{fig:lading}
+\end{figure}
+
+
 \section*{Formularium}
 
 \subsection*{Taylorontwikkeling}
@@ -1387,6 +1802,62 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 	\label{fig:huis_4_ex_5}
 \end{figure}
 
+\subsection*{Bord 4}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_4_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:bord_4_ex_1}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_4_ex_1.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/bord_4_ex_2.pdf}
+	\caption{Exercise 2}
+	\label{fig:bord_4_ex_2}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_4_ex_3.png}
+	\caption{Exercise 3}
+	\label{fig:bord_4_ex_3}
+\end{figure}
+
+The following exercise is quite diffucult, however we simply take the SVD and look at the diagonal matrix to see the dim of the dominant singular values.
+
+\includepdf[pages=-]{exercises/bord_4_ex_4_maple.pdf}
+
+\subsection*{WC 4}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/wc_4_ex_1.pdf}
+	\caption{Exercise 1}
+	\label{fig:word_4_ex_1}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_4_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:wc_4_ex_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/wc_4_ex_2.pdf}
+	\caption{Exercise 2}
+	\label{fig:wc_4_ex_2_maple}
+\end{figure}
+
+
+
 \subsection*{Huis 5}
 
 
@@ -1509,11 +1980,67 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 // Exercise 4
 \includepdf[pages=-]{exercises/wc_5_ex_4.pdf}
 
+\subsection*{Huis 6}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:huis_6_ex_1}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:huis_6_ex_2}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_9.png}
+	\caption{Exercise 9}
+	\label{fig:huis_6_ex_9}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_10.png}
+	\caption{Exercise 10}
+	\label{fig:huis_6_ex_10}
+\end{figure}
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_11.png}
+	\caption{Exercise 11}
+	\label{fig:huis_6_ex_11}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_6_ex_11.pdf}
+	\caption{Exercise 11 Maple}
+	\label{fig:huis_6_ex_11_maple}
+\end{figure}
+
 
 
 
 
 \end{document}
+\end{document}
 
 
+\end{document}
+\end{document}
+\end{document}
+\end{document}
 \end{document}
