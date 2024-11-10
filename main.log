@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.27)  9 NOV 2024 10:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.27)  10 NOV 2024 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,7 +1008,7 @@ Package pdftex.def Info: assets/voorbeeld_boloppervlak.png  used on input line
 File: assets/voorbeeld_boloppervlak_oplossing.png Graphic file (type png)
 <use assets/voorbeeld_boloppervlak_oplossing.png>
 Package pdftex.def Info: assets/voorbeeld_boloppervlak_oplossing.png  used on i
-nput line 1185.
+nput line 1184.
 (pdftex.def)             Requested size: 362.37569pt x 325.6438pt.
  [54 <./assets/oppervlakte_integraal_uitleg.png (PNG copy)> <./assets/voorbeeld
 _boloppervlak.png (PNG copy)>]
@@ -1016,21 +1016,21 @@ _boloppervlak.png (PNG copy)>]
 File: assets/cilinder_oppervlak_oplossing.png Graphic file (type png)
 <use assets/cilinder_oppervlak_oplossing.png>
 Package pdftex.def Info: assets/cilinder_oppervlak_oplossing.png  used on input
- line 1192.
+ line 1191.
 (pdftex.def)             Requested size: 362.37569pt x 403.18706pt.
 
 [55 <./assets/voorbeeld_boloppervlak_oplossing.png (PNG copy)>]
 <assets/flux_voorbeeld.png, id=303, 396.7322pt x 318.43968pt>
 File: assets/flux_voorbeeld.png Graphic file (type png)
 <use assets/flux_voorbeeld.png>
-Package pdftex.def Info: assets/flux_voorbeeld.png  used on input line 1202.
+Package pdftex.def Info: assets/flux_voorbeeld.png  used on input line 1201.
 (pdftex.def)             Requested size: 362.37569pt x 290.86897pt.
  [56 <./assets/cilinder_oppervlak_oplossing.png (PNG copy)>]
 <assets/IntegratieStellingen.png, id=307, 498.36188pt x 363.60844pt>
 File: assets/IntegratieStellingen.png Graphic file (type png)
 <use assets/IntegratieStellingen.png>
 Package pdftex.def Info: assets/IntegratieStellingen.png  used on input line 12
-11.
+10.
 (pdftex.def)             Requested size: 362.37569pt x 264.39998pt.
  [57 <./assets/flux_voorbeeld.png (PNG copy)> <./assets/IntegratieStellingen.pn
 g (PNG copy)>]
@@ -1038,39 +1038,39 @@ g (PNG copy)>]
 File: assets/Stelling van Stokes.png Graphic file (type png)
 <use assets/Stelling van Stokes.png>
 Package pdftex.def Info: assets/Stelling van Stokes.png  used on input line 122
-1.
+0.
 (pdftex.def)             Requested size: 362.37569pt x 130.76646pt.
 <assets/stokes_voorbeeld_opgelost.png, id=312, 418.56375pt x 490.83376pt>
 File: assets/stokes_voorbeeld_opgelost.png Graphic file (type png)
 <use assets/stokes_voorbeeld_opgelost.png>
 Package pdftex.def Info: assets/stokes_voorbeeld_opgelost.png  used on input li
-ne 1231.
+ne 1230.
 (pdftex.def)             Requested size: 362.37569pt x 424.93983pt.
  [58 <./assets/Stelling van Stokes.png (PNG copy)>]
 <assets/uitleg_green.png, id=316, 502.12593pt x 442.65375pt>
 File: assets/uitleg_green.png Graphic file (type png)
 <use assets/uitleg_green.png>
-Package pdftex.def Info: assets/uitleg_green.png  used on input line 1239.
+Package pdftex.def Info: assets/uitleg_green.png  used on input line 1238.
 (pdftex.def)             Requested size: 362.37569pt x 319.47368pt.
  [59 <./assets/stokes_voorbeeld_opgelost.png (PNG copy)>]
 <assets/divergentie_stelling.png, id=320, 452.4403pt x 505.89pt>
 File: assets/divergentie_stelling.png Graphic file (type png)
 <use assets/divergentie_stelling.png>
 Package pdftex.def Info: assets/divergentie_stelling.png  used on input line 12
-49.
+48.
 (pdftex.def)             Requested size: 362.37569pt x 405.18341pt.
  [60 <./assets/uitleg_green.png (PNG copy)>]
 <assets/formule_divergentie_wet.png, id=324, 185.94469pt x 33.87656pt>
 File: assets/formule_divergentie_wet.png Graphic file (type png)
 <use assets/formule_divergentie_wet.png>
 Package pdftex.def Info: assets/formule_divergentie_wet.png  used on input line
- 1258.
+ 1257.
 (pdftex.def)             Requested size: 362.37569pt x 66.02177pt.
 <assets/voorbeeld_gauss_toepassing.png, id=325, 424.58624pt x 354.57469pt>
 File: assets/voorbeeld_gauss_toepassing.png Graphic file (type png)
 <use assets/voorbeeld_gauss_toepassing.png>
 Package pdftex.def Info: assets/voorbeeld_gauss_toepassing.png  used on input l
-ine 1267.
+ine 1266.
 (pdftex.def)             Requested size: 362.37569pt x 302.6343pt.
  [61 <./assets/divergentie_stelling.png (PNG copy)> <./assets/formule_divergent
 ie_wet.png (PNG copy)>]
@@ -1078,7 +1078,7 @@ ie_wet.png (PNG copy)>]
 File: assets/inzicht_integraalstellingen.png Graphic file (type png)
 <use assets/inzicht_integraalstellingen.png>
 Package pdftex.def Info: assets/inzicht_integraalstellingen.png  used on input 
-line 1277.
+line 1276.
 (pdftex.def)             Requested size: 362.37569pt x 196.6527pt.
 
 [62 <./assets/voorbeeld_gauss_toepassing.png (PNG copy)> <./assets/inzicht_inte
@@ -1086,28 +1086,28 @@ graalstellingen.png (PNG copy)>]
 <assets/lading.png, id=334, 486.31688pt x 608.2725pt>
 File: assets/lading.png Graphic file (type png)
 <use assets/lading.png>
-Package pdftex.def Info: assets/lading.png  used on input line 1290.
+Package pdftex.def Info: assets/lading.png  used on input line 1289.
 (pdftex.def)             Requested size: 362.37569pt x 453.25175pt.
  [63 <./assets/lading.png (PNG copy)>]
 <./exercises/huis_1_ex_1.pdf, id=338, 614.295pt x 794.97pt>
 File: ./exercises/huis_1_ex_1.pdf Graphic file (type pdf)
 <use ./exercises/huis_1_ex_1.pdf>
-Package pdftex.def Info: ./exercises/huis_1_ex_1.pdf  used on input line 1358.
+Package pdftex.def Info: ./exercises/huis_1_ex_1.pdf  used on input line 1357.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <./exercises/huis_1_ex_2.pdf, id=339, 614.295pt x 794.97pt>
 File: ./exercises/huis_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/huis_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/huis_1_ex_2.pdf  used on input line 1364.
+Package pdftex.def Info: ./exercises/huis_1_ex_2.pdf  used on input line 1363.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <assets/huis_1_ex_3.png, id=340, 405.01312pt x 312.41719pt>
 File: assets/huis_1_ex_3.png Graphic file (type png)
 <use assets/huis_1_ex_3.png>
-Package pdftex.def Info: assets/huis_1_ex_3.png  used on input line 1372.
+Package pdftex.def Info: assets/huis_1_ex_3.png  used on input line 1371.
 (pdftex.def)             Requested size: 362.37569pt x 279.53297pt.
 <assets/huis_1_ex_4.png, id=341, 377.15906pt x 344.78813pt>
 File: assets/huis_1_ex_4.png Graphic file (type png)
 <use assets/huis_1_ex_4.png>
-Package pdftex.def Info: assets/huis_1_ex_4.png  used on input line 1380.
+Package pdftex.def Info: assets/huis_1_ex_4.png  used on input line 1379.
 (pdftex.def)             Requested size: 271.7835pt x 248.45769pt.
  [64]
 [65 <./exercises/huis_1_ex_1.pdf>] [66 <./exercises/huis_1_ex_2.pdf>] [67 <./as
@@ -1115,22 +1115,22 @@ sets/huis_1_ex_3.png (PNG copy)> <./assets/huis_1_ex_4.png (PNG copy)>]
 <./exercises/wc_1_ex_1.pdf, id=363, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_1.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_1.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_1.pdf  used on input line 1391.
+Package pdftex.def Info: ./exercises/wc_1_ex_1.pdf  used on input line 1390.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <./exercises/wc_1_ex_2.pdf, id=364, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_2.pdf  used on input line 1397.
+Package pdftex.def Info: ./exercises/wc_1_ex_2.pdf  used on input line 1396.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <images/wc1_a3.png, id=365, 521.95pt x 607.26875pt>
 File: images/wc1_a3.png Graphic file (type png)
 <use images/wc1_a3.png>
-Package pdftex.def Info: images/wc1_a3.png  used on input line 1403.
+Package pdftex.def Info: images/wc1_a3.png  used on input line 1402.
 (pdftex.def)             Requested size: 362.37569pt x 421.61041pt.
 <./exercises/wc_1_ex_3.pdf, id=366, 614.295pt x 794.97pt>
 File: ./exercises/wc_1_ex_3.pdf Graphic file (type pdf)
 <use ./exercises/wc_1_ex_3.pdf>
-Package pdftex.def Info: ./exercises/wc_1_ex_3.pdf  used on input line 1409.
+Package pdftex.def Info: ./exercises/wc_1_ex_3.pdf  used on input line 1408.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 
 [68 <./exercises/wc_1_ex_1.pdf>] [69 <./exercises/wc_1_ex_2.pdf>] [70 <./images
@@ -1138,148 +1138,148 @@ Package pdftex.def Info: ./exercises/wc_1_ex_3.pdf  used on input line 1409.
 <./exercises/bordles_1.pdf, id=390, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1.pdf>
-Package pdftex.def Info: ./exercises/bordles_1.pdf  used on input line 1418.
+Package pdftex.def Info: ./exercises/bordles_1.pdf  used on input line 1417.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <images/ex_2_a.png, id=391, 494.84875pt x 731.73375pt>
 File: images/ex_2_a.png Graphic file (type png)
 <use images/ex_2_a.png>
-Package pdftex.def Info: images/ex_2_a.png  used on input line 1424.
+Package pdftex.def Info: images/ex_2_a.png  used on input line 1423.
 (pdftex.def)             Requested size: 362.37569pt x 535.84717pt.
 <./exercises/bordles_1_ex_2.pdf, id=392, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1_ex_2.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1_ex_2.pdf>
-Package pdftex.def Info: ./exercises/bordles_1_ex_2.pdf  used on input line 143
-0.
+Package pdftex.def Info: ./exercises/bordles_1_ex_2.pdf  used on input line 142
+9.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <images/pl_1_answer_3.png, id=393, 471.7625pt x 765.86125pt>
 File: images/pl_1_answer_3.png Graphic file (type png)
 <use images/pl_1_answer_3.png>
-Package pdftex.def Info: images/pl_1_answer_3.png  used on input line 1436.
+Package pdftex.def Info: images/pl_1_answer_3.png  used on input line 1435.
 (pdftex.def)             Requested size: 452.9679pt x 735.35869pt.
 
 
-LaTeX Warning: Float too large for page by 88.79626pt on input line 1438.
+LaTeX Warning: Float too large for page by 88.79626pt on input line 1437.
 
 <images/plot_2.png, id=394, 1395.2125pt x 712.6625pt>
 File: images/plot_2.png Graphic file (type png)
 <use images/plot_2.png>
-Package pdftex.def Info: images/plot_2.png  used on input line 1442.
+Package pdftex.def Info: images/plot_2.png  used on input line 1441.
 (pdftex.def)             Requested size: 452.9679pt x 231.37334pt.
 <./exercises/bordles_1_ex_3.pdf, id=395, 614.295pt x 794.97pt>
 File: ./exercises/bordles_1_ex_3.pdf Graphic file (type pdf)
 <use ./exercises/bordles_1_ex_3.pdf>
 Package pdftex.def Info: ./exercises/bordles_1_ex_3.pdf  used on input line 144
-8.
+7.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 [72 <./exercises/bordles_1.pdf>] [73 <./images/ex_2_a.png (PNG copy)>] [74 <./e
 xercises/bordles_1_ex_2.pdf>] [75 <./images/pl_1_answer_3.png (PNG copy)>]
 <assets/huis_2_ex_1.png, id=416, 364.36125pt x 179.16937pt>
 File: assets/huis_2_ex_1.png Graphic file (type png)
 <use assets/huis_2_ex_1.png>
-Package pdftex.def Info: assets/huis_2_ex_1.png  used on input line 1458.
+Package pdftex.def Info: assets/huis_2_ex_1.png  used on input line 1457.
 (pdftex.def)             Requested size: 362.37569pt x 178.1984pt.
 <assets/huis_2_ex_2.png, id=417, 506.6428pt x 120.45pt>
 File: assets/huis_2_ex_2.png Graphic file (type png)
 <use assets/huis_2_ex_2.png>
-Package pdftex.def Info: assets/huis_2_ex_2.png  used on input line 1466.
+Package pdftex.def Info: assets/huis_2_ex_2.png  used on input line 1465.
 (pdftex.def)             Requested size: 362.37569pt x 86.15416pt.
 <assets/huis_2_ex_3.png, id=418, 504.38437pt x 234.8775pt>
 File: assets/huis_2_ex_3.png Graphic file (type png)
 <use assets/huis_2_ex_3.png>
-Package pdftex.def Info: assets/huis_2_ex_3.png  used on input line 1474.
+Package pdftex.def Info: assets/huis_2_ex_3.png  used on input line 1473.
 (pdftex.def)             Requested size: 362.37569pt x 168.74968pt.
 <images/huis_2_4.png, id=419, 568.1225pt x 555.07375pt>
 File: images/huis_2_4.png Graphic file (type png)
 <use images/huis_2_4.png>
-Package pdftex.def Info: images/huis_2_4.png  used on input line 1481.
+Package pdftex.def Info: images/huis_2_4.png  used on input line 1480.
 (pdftex.def)             Requested size: 362.37569pt x 354.06868pt.
 <images/huis_2_maple_4.png, id=420, 1023.825pt x 911.405pt>
 File: images/huis_2_maple_4.png Graphic file (type png)
 <use images/huis_2_maple_4.png>
-Package pdftex.def Info: images/huis_2_maple_4.png  used on input line 1488.
+Package pdftex.def Info: images/huis_2_maple_4.png  used on input line 1487.
 (pdftex.def)             Requested size: 452.9679pt x 403.23064pt.
 <exercises/huis_2_ex_5.pdf, id=421, 614.295pt x 794.97pt>
 File: exercises/huis_2_ex_5.pdf Graphic file (type pdf)
 <use exercises/huis_2_ex_5.pdf>
-Package pdftex.def Info: exercises/huis_2_ex_5.pdf  used on input line 1495.
+Package pdftex.def Info: exercises/huis_2_ex_5.pdf  used on input line 1494.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <images/huis_2_6.png, id=422, 574.145pt x 608.2725pt>
 File: images/huis_2_6.png Graphic file (type png)
 <use images/huis_2_6.png>
-Package pdftex.def Info: images/huis_2_6.png  used on input line 1502.
+Package pdftex.def Info: images/huis_2_6.png  used on input line 1501.
 (pdftex.def)             Requested size: 452.9679pt x 479.89888pt.
 <images/huis_2_7.png, id=423, 540.0175pt x 700.6175pt>
 File: images/huis_2_7.png Graphic file (type png)
 <use images/huis_2_7.png>
-Package pdftex.def Info: images/huis_2_7.png  used on input line 1509.
+Package pdftex.def Info: images/huis_2_7.png  used on input line 1508.
 (pdftex.def)             Requested size: 452.9679pt x 587.69151pt.
 <exercises/huis_2_ex_7.pdf, id=424, 614.295pt x 794.97pt>
 File: exercises/huis_2_ex_7.pdf Graphic file (type pdf)
 <use exercises/huis_2_ex_7.pdf>
-Package pdftex.def Info: exercises/huis_2_ex_7.pdf  used on input line 1516.
+Package pdftex.def Info: exercises/huis_2_ex_7.pdf  used on input line 1515.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <images/huis_2_8.png, id=425, 562.1pt x 358.33875pt>
 File: images/huis_2_8.png Graphic file (type png)
 <use images/huis_2_8.png>
-Package pdftex.def Info: images/huis_2_8.png  used on input line 1523.
+Package pdftex.def Info: images/huis_2_8.png  used on input line 1522.
 (pdftex.def)             Requested size: 452.9679pt x 288.76555pt.
 <assets/huis_2_ex_8.png, id=426, 442.65375pt x 590.205pt>
 File: assets/huis_2_ex_8.png Graphic file (type png)
 <use assets/huis_2_ex_8.png>
-Package pdftex.def Info: assets/huis_2_ex_8.png  used on input line 1530.
+Package pdftex.def Info: assets/huis_2_ex_8.png  used on input line 1529.
 (pdftex.def)             Requested size: 452.9679pt x 603.99141pt.
 <images/huis_2_9.png, id=427, 559.08875pt x 603.25375pt>
 File: images/huis_2_9.png Graphic file (type png)
 <use images/huis_2_9.png>
-Package pdftex.def Info: images/huis_2_9.png  used on input line 1537.
+Package pdftex.def Info: images/huis_2_9.png  used on input line 1536.
 (pdftex.def)             Requested size: 452.9679pt x 488.77094pt.
 <exercises/huis_2_ex_9.pdf, id=428, 614.295pt x 794.97pt>
 File: exercises/huis_2_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_2_ex_9.pdf>
-Package pdftex.def Info: exercises/huis_2_ex_9.pdf  used on input line 1544.
+Package pdftex.def Info: exercises/huis_2_ex_9.pdf  used on input line 1543.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <assets/bordles_2_ex_1.png, id=429, 467.49657pt x 646.66594pt>
 File: assets/bordles_2_ex_1.png Graphic file (type png)
 <use assets/bordles_2_ex_1.png>
-Package pdftex.def Info: assets/bordles_2_ex_1.png  used on input line 1554.
+Package pdftex.def Info: assets/bordles_2_ex_1.png  used on input line 1553.
 (pdftex.def)             Requested size: 452.9679pt x 626.6041pt.
 <exercises/bordles_2_ex_1_version_1.pdf, id=430, 614.295pt x 794.97pt>
 File: exercises/bordles_2_ex_1_version_1.pdf Graphic file (type pdf)
 <use exercises/bordles_2_ex_1_version_1.pdf>
 Package pdftex.def Info: exercises/bordles_2_ex_1_version_1.pdf  used on input 
-line 1561.
+line 1560.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <exercises/bordles_2_ex_1_version_2.pdf, id=431, 614.295pt x 794.97pt>
 File: exercises/bordles_2_ex_1_version_2.pdf Graphic file (type pdf)
 <use exercises/bordles_2_ex_1_version_2.pdf>
 Package pdftex.def Info: exercises/bordles_2_ex_1_version_2.pdf  used on input 
-line 1567.
+line 1566.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <assets/bordles_2_ex_2.png, id=432, 538.26094pt x 226.59656pt>
 File: assets/bordles_2_ex_2.png Graphic file (type png)
 <use assets/bordles_2_ex_2.png>
-Package pdftex.def Info: assets/bordles_2_ex_2.png  used on input line 1574.
+Package pdftex.def Info: assets/bordles_2_ex_2.png  used on input line 1573.
 (pdftex.def)             Requested size: 452.9679pt x 190.69247pt.
 <exercises/bordles_2_ex_2.pdf, id=433, 614.295pt x 794.97pt>
 File: exercises/bordles_2_ex_2.pdf Graphic file (type pdf)
 <use exercises/bordles_2_ex_2.pdf>
-Package pdftex.def Info: exercises/bordles_2_ex_2.pdf  used on input line 1581.
+Package pdftex.def Info: exercises/bordles_2_ex_2.pdf  used on input line 1580.
 
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 <images/pl_2_ex_3.png, id=434, 600.2425pt x 643.40375pt>
 File: images/pl_2_ex_3.png Graphic file (type png)
 <use images/pl_2_ex_3.png>
-Package pdftex.def Info: images/pl_2_ex_3.png  used on input line 1588.
+Package pdftex.def Info: images/pl_2_ex_3.png  used on input line 1587.
 (pdftex.def)             Requested size: 452.9679pt x 485.55579pt.
 <images/pl_2_ex_4.png, id=435, 654.445pt x 594.22pt>
 File: images/pl_2_ex_4.png Graphic file (type png)
 <use images/pl_2_ex_4.png>
-Package pdftex.def Info: images/pl_2_ex_4.png  used on input line 1595.
+Package pdftex.def Info: images/pl_2_ex_4.png  used on input line 1594.
 (pdftex.def)             Requested size: 452.9679pt x 411.28163pt.
 <assets/bord_2_ex_5_part_1.png, id=436, 478.03593pt x 705.38531pt>
 File: assets/bord_2_ex_5_part_1.png Graphic file (type png)
 <use assets/bord_2_ex_5_part_1.png>
-Package pdftex.def Info: assets/bord_2_ex_5_part_1.png  used on input line 1603
+Package pdftex.def Info: assets/bord_2_ex_5_part_1.png  used on input line 1602
 .
 (pdftex.def)             Requested size: 362.37569pt x 534.7207pt.
 
@@ -1296,13 +1296,13 @@ py)>] [83 <./images/huis_2_7.png (PNG copy)>] [84 <./exercises/huis_2_ex_7.pdf>
 <assets/bord_2_ex_5_part_2.png, id=478, 505.89pt x 286.82156pt>
 File: assets/bord_2_ex_5_part_2.png Graphic file (type png)
 <use assets/bord_2_ex_5_part_2.png>
-Package pdftex.def Info: assets/bord_2_ex_5_part_2.png  used on input line 1611
+Package pdftex.def Info: assets/bord_2_ex_5_part_2.png  used on input line 1610
 .
 (pdftex.def)             Requested size: 362.37569pt x 205.4566pt.
 <assets/bord_2_ex_5_part_3.png, id=479, 493.0922pt x 324.46219pt>
 File: assets/bord_2_ex_5_part_3.png Graphic file (type png)
 <use assets/bord_2_ex_5_part_3.png>
-Package pdftex.def Info: assets/bord_2_ex_5_part_3.png  used on input line 1619
+Package pdftex.def Info: assets/bord_2_ex_5_part_3.png  used on input line 1618
 .
 (pdftex.def)             Requested size: 362.37569pt x 238.4595pt.
  [85 <./images/huis_2_8.png (PNG copy)> <./assets/bord_2_ex_5_part_2.png (PNG c
@@ -1313,7 +1313,7 @@ _1_version_2.pdf>]
 <images/wc_2_ex_1.png, id=516, 593.21625pt x 419.5675pt>
 File: images/wc_2_ex_1.png Graphic file (type png)
 <use images/wc_2_ex_1.png>
-Package pdftex.def Info: images/wc_2_ex_1.png  used on input line 1628.
+Package pdftex.def Info: images/wc_2_ex_1.png  used on input line 1627.
 (pdftex.def)             Requested size: 362.37569pt x 256.30711pt.
  [92 <./assets/bordles_2_ex_2.png (PNG copy)> <./assets/bord_2_ex_5_part_3.png 
 (PNG copy)>] [93 <./exercises/bordles_2_ex_2.pdf>] [94 <./images/pl_2_ex_3.png 
@@ -1321,81 +1321,81 @@ Package pdftex.def Info: images/wc_2_ex_1.png  used on input line 1628.
 <exercises/wc_2_ex_2.pdf, id=533, 614.295pt x 794.97pt>
 File: exercises/wc_2_ex_2.pdf Graphic file (type pdf)
 <use exercises/wc_2_ex_2.pdf>
-Package pdftex.def Info: exercises/wc_2_ex_2.pdf  used on input line 1635.
+Package pdftex.def Info: exercises/wc_2_ex_2.pdf  used on input line 1634.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 
 [96 <./images/wc_2_ex_1.png (PNG copy)>]
 <assets/wc_2_ex_2_maple.png, id=537, 539.76656pt x 359.09157pt>
 File: assets/wc_2_ex_2_maple.png Graphic file (type png)
 <use assets/wc_2_ex_2_maple.png>
-Package pdftex.def Info: assets/wc_2_ex_2_maple.png  used on input line 1643.
+Package pdftex.def Info: assets/wc_2_ex_2_maple.png  used on input line 1642.
 (pdftex.def)             Requested size: 362.37569pt x 241.08322pt.
  [97 <./exercises/wc_2_ex_2.pdf>]
 <exercises/wc_2_ex_3.pdf, id=546, 614.295pt x 794.97pt>
 File: exercises/wc_2_ex_3.pdf Graphic file (type pdf)
 <use exercises/wc_2_ex_3.pdf>
-Package pdftex.def Info: exercises/wc_2_ex_3.pdf  used on input line 1650.
+Package pdftex.def Info: exercises/wc_2_ex_3.pdf  used on input line 1649.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 
 [98 <./assets/wc_2_ex_2_maple.png (PNG copy)>] [99 <./exercises/wc_2_ex_3.pdf>]
 <exercises/huis_3_ex_1.pdf, id=557, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_1.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_1.pdf  used on input line 1661.
+Package pdftex.def Info: exercises/huis_3_ex_1.pdf  used on input line 1660.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <assets/huis_3_ex_1.png, id=558, 487.06969pt x 551.05875pt>
 File: assets/huis_3_ex_1.png Graphic file (type png)
 <use assets/huis_3_ex_1.png>
-Package pdftex.def Info: assets/huis_3_ex_1.png  used on input line 1669.
+Package pdftex.def Info: assets/huis_3_ex_1.png  used on input line 1668.
 (pdftex.def)             Requested size: 362.37569pt x 409.9801pt.
 [100 <./exercises/huis_3_ex_1.pdf>]
 <assets/huis_3_ex_2.png, id=566, 491.58656pt x 440.39531pt>
 File: assets/huis_3_ex_2.png Graphic file (type png)
 <use assets/huis_3_ex_2.png>
-Package pdftex.def Info: assets/huis_3_ex_2.png  used on input line 1677.
+Package pdftex.def Info: assets/huis_3_ex_2.png  used on input line 1676.
 (pdftex.def)             Requested size: 362.37569pt x 324.65096pt.
  [101 <./assets/huis_3_ex_1.png (PNG copy)>]
 <exercises/huis_3_ex_2.pdf, id=570, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_2.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_2.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_2.pdf  used on input line 1684.
+Package pdftex.def Info: exercises/huis_3_ex_2.pdf  used on input line 1683.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 [102 <./assets/huis_3_ex_2.png (PNG copy)>]
 <exercises/huis_3_ex_3.pdf, id=574, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_3.pdf  used on input line 1690.
+Package pdftex.def Info: exercises/huis_3_ex_3.pdf  used on input line 1689.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_3.pdf  used on input line 1690.
+Package pdftex.def Info: exercises/huis_3_ex_3.pdf  used on input line 1689.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/huis_3_ex_3.pdf, id=577, page=1, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [103 <./exercises/huis_3_ex_2.pdf>]
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [104
 
@@ -1404,17 +1404,17 @@ Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page1 used on input line 1
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page2 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page2 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page2 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [105
 
@@ -1423,17 +1423,17 @@ Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page2 used on input line 1
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page3 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page3 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page3 used on input line 1
-690.
+689.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [106
@@ -1442,23 +1442,23 @@ Package pdftex.def Info: exercises/huis_3_ex_3.pdf , page3 used on input line 1
 <exercises/huis_3_ex_4.pdf, id=605, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_4.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_4.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_4.pdf  used on input line 1694.
+Package pdftex.def Info: exercises/huis_3_ex_4.pdf  used on input line 1693.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <assets/huis_3_ex_5.png, id=606, 462.97969pt x 509.65407pt>
 File: assets/huis_3_ex_5.png Graphic file (type png)
 <use assets/huis_3_ex_5.png>
-Package pdftex.def Info: assets/huis_3_ex_5.png  used on input line 1701.
+Package pdftex.def Info: assets/huis_3_ex_5.png  used on input line 1700.
 (pdftex.def)             Requested size: 362.37569pt x 398.91281pt.
  [107 <./exercises/huis_3_ex_4.pdf>]
 <assets/huis_3_ex_6.png, id=615, 569.87906pt x 218.31563pt>
 File: assets/huis_3_ex_6.png Graphic file (type png)
 <use assets/huis_3_ex_6.png>
-Package pdftex.def Info: assets/huis_3_ex_6.png  used on input line 1708.
+Package pdftex.def Info: assets/huis_3_ex_6.png  used on input line 1707.
 (pdftex.def)             Requested size: 362.37569pt x 138.82208pt.
 <assets/huis_3_ex_7.png, id=616, 566.115pt x 408.02437pt>
 File: assets/huis_3_ex_7.png Graphic file (type png)
 <use assets/huis_3_ex_7.png>
-Package pdftex.def Info: assets/huis_3_ex_7.png  used on input line 1715.
+Package pdftex.def Info: assets/huis_3_ex_7.png  used on input line 1714.
 (pdftex.def)             Requested size: 362.37569pt x 261.18451pt.
 
 [108 <./assets/huis_3_ex_5.png (PNG copy)> <./assets/huis_3_ex_6.png (PNG copy)
@@ -1466,44 +1466,44 @@ Package pdftex.def Info: assets/huis_3_ex_7.png  used on input line 1715.
 <exercises/huis_3_ex_8.pdf, id=620, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_8.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_8.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_8.pdf  used on input line 1722.
+Package pdftex.def Info: exercises/huis_3_ex_8.pdf  used on input line 1721.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [109 <./assets/huis_3_ex_7.png (PNG copy)>]
 <exercises/huis_3_ex_9.pdf, id=625, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_9.pdf  used on input line 1728.
+Package pdftex.def Info: exercises/huis_3_ex_9.pdf  used on input line 1727.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf>
-Package pdftex.def Info: exercises/huis_3_ex_9.pdf  used on input line 1728.
+Package pdftex.def Info: exercises/huis_3_ex_9.pdf  used on input line 1727.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/huis_3_ex_9.pdf, id=628, page=1, 614.295pt x 794.97pt>
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [110 <./exercises/huis_3_ex_8.pdf>]
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 1>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [111
 
@@ -1512,17 +1512,17 @@ Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page1 used on input line 1
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page2 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page2 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/huis_3_ex_9.pdf Graphic file (type pdf)
 <use exercises/huis_3_ex_9.pdf, page 2>
 Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page2 used on input line 1
-728.
+727.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [112
 
@@ -1530,50 +1530,50 @@ Package pdftex.def Info: exercises/huis_3_ex_9.pdf , page2 used on input line 1
 <exercises/bord_3_ex_1.pdf, id=648, 614.295pt x 794.97pt>
 File: exercises/bord_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_1.pdf>
-Package pdftex.def Info: exercises/bord_3_ex_1.pdf  used on input line 1734.
+Package pdftex.def Info: exercises/bord_3_ex_1.pdf  used on input line 1733.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <exercises/bord_3_ex_2.pdf, id=649, 614.295pt x 794.97pt>
 File: exercises/bord_3_ex_2.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_2.pdf>
-Package pdftex.def Info: exercises/bord_3_ex_2.pdf  used on input line 1741.
+Package pdftex.def Info: exercises/bord_3_ex_2.pdf  used on input line 1740.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 
 [113 <./exercises/bord_3_ex_1.pdf>]
 <exercises/bord_3_ex_3.pdf, id=657, 614.295pt x 794.97pt>
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf>
-Package pdftex.def Info: exercises/bord_3_ex_3.pdf  used on input line 1747.
+Package pdftex.def Info: exercises/bord_3_ex_3.pdf  used on input line 1746.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf>
-Package pdftex.def Info: exercises/bord_3_ex_3.pdf  used on input line 1747.
+Package pdftex.def Info: exercises/bord_3_ex_3.pdf  used on input line 1746.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/bord_3_ex_3.pdf, id=660, page=1, 614.295pt x 794.97pt>
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [114 <./exercises/bord_3_ex_2.pdf>]
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [115
@@ -1583,17 +1583,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page1 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page2 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page2 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page2 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [116
 
@@ -1602,17 +1602,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page2 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page3 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page3 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 3>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page3 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [117
@@ -1622,17 +1622,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page3 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 4>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page4 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 4>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page4 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 4>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page4 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [118
 
@@ -1641,17 +1641,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page4 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 5>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page5 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 5>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page5 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 5>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page5 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [119
@@ -1661,17 +1661,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page5 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 6>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page6 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 6>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page6 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 6>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page6 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [120
 
@@ -1680,17 +1680,17 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page6 used on input line 1
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 7>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page7 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 7>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page7 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_3_ex_3.pdf, page 7>
 Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page7 used on input line 1
-747.
+746.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [121
@@ -1699,38 +1699,38 @@ Package pdftex.def Info: exercises/bord_3_ex_3.pdf , page7 used on input line 1
 <exercises/wc_3_ex_1.pdf, id=707, 614.295pt x 794.97pt>
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf>
-Package pdftex.def Info: exercises/wc_3_ex_1.pdf  used on input line 1752.
+Package pdftex.def Info: exercises/wc_3_ex_1.pdf  used on input line 1751.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf>
-Package pdftex.def Info: exercises/wc_3_ex_1.pdf  used on input line 1752.
+Package pdftex.def Info: exercises/wc_3_ex_1.pdf  used on input line 1751.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/wc_3_ex_1.pdf, id=710, page=1, 614.295pt x 794.97pt>
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [122]
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [123
 
@@ -1739,17 +1739,17 @@ Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page1 used on input line 175
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page2 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page2 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page2 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [124
@@ -1759,17 +1759,17 @@ Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page2 used on input line 175
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 3>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page3 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 3>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page3 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 3>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page3 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [125
 
@@ -1778,17 +1778,17 @@ Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page3 used on input line 175
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 4>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page4 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 4>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page4 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 4>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page4 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [126
 
@@ -1797,17 +1797,17 @@ Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page4 used on input line 175
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 5>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page5 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 5>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page5 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_3_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_1.pdf, page 5>
 Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page5 used on input line 175
-2.
+1.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [127
 
@@ -1815,85 +1815,85 @@ Package pdftex.def Info: exercises/wc_3_ex_1.pdf , page5 used on input line 175
 <exercises/wc_3_ex_2.pdf, id=742, 614.295pt x 794.97pt>
 File: exercises/wc_3_ex_2.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_2.pdf>
-Package pdftex.def Info: exercises/wc_3_ex_2.pdf  used on input line 1756.
+Package pdftex.def Info: exercises/wc_3_ex_2.pdf  used on input line 1755.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <exercises/wc_3_ex_3.pdf, id=743, 614.295pt x 794.97pt>
 File: exercises/wc_3_ex_3.pdf Graphic file (type pdf)
 <use exercises/wc_3_ex_3.pdf>
-Package pdftex.def Info: exercises/wc_3_ex_3.pdf  used on input line 1763.
+Package pdftex.def Info: exercises/wc_3_ex_3.pdf  used on input line 1762.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [128 <./exercises/wc_3_ex_2.pdf>]
 <assets/huis_4_ex_1.png, id=751, 504.38437pt x 682.80093pt>
 File: assets/huis_4_ex_1.png Graphic file (type png)
 <use assets/huis_4_ex_1.png>
-Package pdftex.def Info: assets/huis_4_ex_1.png  used on input line 1772.
+Package pdftex.def Info: assets/huis_4_ex_1.png  used on input line 1771.
 (pdftex.def)             Requested size: 362.37569pt x 490.564pt.
  [129 <./exercises/wc_3_ex_3.pdf>]
 <assets/huis_4_ex_2.png, id=759, 442.65375pt x 590.205pt>
 File: assets/huis_4_ex_2.png Graphic file (type png)
 <use assets/huis_4_ex_2.png>
-Package pdftex.def Info: assets/huis_4_ex_2.png  used on input line 1779.
+Package pdftex.def Info: assets/huis_4_ex_2.png  used on input line 1778.
 (pdftex.def)             Requested size: 362.37569pt x 483.19673pt.
  [130 <./assets/huis_4_ex_1.png (PNG copy)>]
 <assets/huis_4_ex_3.png, id=763, 476.53032pt x 613.54219pt>
 File: assets/huis_4_ex_3.png Graphic file (type png)
 <use assets/huis_4_ex_3.png>
-Package pdftex.def Info: assets/huis_4_ex_3.png  used on input line 1786.
+Package pdftex.def Info: assets/huis_4_ex_3.png  used on input line 1785.
 (pdftex.def)             Requested size: 362.37569pt x 466.58713pt.
  [131 <./assets/huis_4_ex_2.png>]
 <assets/huis_4_ex_4.png, id=768, 499.8675pt x 750.55406pt>
 File: assets/huis_4_ex_4.png Graphic file (type png)
 <use assets/huis_4_ex_4.png>
-Package pdftex.def Info: assets/huis_4_ex_4.png  used on input line 1793.
+Package pdftex.def Info: assets/huis_4_ex_4.png  used on input line 1792.
 (pdftex.def)             Requested size: 362.37569pt x 544.13203pt.
  [132 <./assets/huis_4_ex_3.png (PNG copy)>]
 <exercises/huis_4_ex_5.pdf, id=772, 614.295pt x 794.97pt>
 File: exercises/huis_4_ex_5.pdf Graphic file (type pdf)
 <use exercises/huis_4_ex_5.pdf>
-Package pdftex.def Info: exercises/huis_4_ex_5.pdf  used on input line 1800.
+Package pdftex.def Info: exercises/huis_4_ex_5.pdf  used on input line 1799.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [133 <./assets/huis_4_ex_4.png (PNG copy)>]
 <assets/bord_4_ex_1.png, id=777, 477.28313pt x 545.03625pt>
 File: assets/bord_4_ex_1.png Graphic file (type png)
 <use assets/bord_4_ex_1.png>
-Package pdftex.def Info: assets/bord_4_ex_1.png  used on input line 1809.
+Package pdftex.def Info: assets/bord_4_ex_1.png  used on input line 1808.
 (pdftex.def)             Requested size: 362.37569pt x 413.81602pt.
  [134 <./exercises/huis_4_ex_5.pdf>]
 <exercises/bord_4_ex_1.pdf, id=785, 614.295pt x 794.97pt>
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf>
-Package pdftex.def Info: exercises/bord_4_ex_1.pdf  used on input line 1814.
+Package pdftex.def Info: exercises/bord_4_ex_1.pdf  used on input line 1813.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf>
-Package pdftex.def Info: exercises/bord_4_ex_1.pdf  used on input line 1814.
+Package pdftex.def Info: exercises/bord_4_ex_1.pdf  used on input line 1813.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/bord_4_ex_1.pdf, id=788, page=1, 614.295pt x 794.97pt>
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [135 <./assets/bord_4_ex_1.png (PNG copy)>]
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [136
 
@@ -1902,17 +1902,17 @@ Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page1 used on input line 1
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page2 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page2 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_1.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page2 used on input line 1
-814.
+813.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [137
 
@@ -1920,51 +1920,51 @@ Package pdftex.def Info: exercises/bord_4_ex_1.pdf , page2 used on input line 1
 <exercises/bord_4_ex_2.pdf, id=808, 614.295pt x 794.97pt>
 File: exercises/bord_4_ex_2.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_2.pdf>
-Package pdftex.def Info: exercises/bord_4_ex_2.pdf  used on input line 1818.
+Package pdftex.def Info: exercises/bord_4_ex_2.pdf  used on input line 1817.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <assets/bord_4_ex_3.png, id=809, 496.10344pt x 619.56468pt>
 File: assets/bord_4_ex_3.png Graphic file (type png)
 <use assets/bord_4_ex_3.png>
-Package pdftex.def Info: assets/bord_4_ex_3.png  used on input line 1826.
+Package pdftex.def Info: assets/bord_4_ex_3.png  used on input line 1825.
 (pdftex.def)             Requested size: 362.37569pt x 452.56206pt.
  [138 <./exercises/bord_4_ex_2.pdf>]
 <exercises/bord_4_ex_4_maple.pdf, id=818, 614.295pt x 794.97pt>
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf  used on input line 18
-33.
+32.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf  used on input line 18
-33.
+32.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/bord_4_ex_4_maple.pdf, id=821, page=1, 614.295pt x 794.97pt>
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page1 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page1 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [139 <./assets/bord_4_ex_3.png (PNG copy)>]
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page1 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page1 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 1>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page1 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [140
 
@@ -1973,17 +1973,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page2 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page2 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 2>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page2 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [141
 
@@ -1992,17 +1992,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 3>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page3 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 3>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page3 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 3>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page3 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [142
 
@@ -2011,17 +2011,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 4>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page4 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 4>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page4 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 4>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page4 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [143
 
@@ -2030,17 +2030,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 5>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page5 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 5>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page5 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 5>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page5 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [144
 
@@ -2049,17 +2049,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 6>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page6 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 6>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page6 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 6>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page6 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [145
 
@@ -2068,17 +2068,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 7>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page7 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 7>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page7 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 7>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page7 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [146
 
@@ -2087,17 +2087,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 8>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page8 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 8>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page8 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 8>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page8 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [147
 
@@ -2106,17 +2106,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 9>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page9 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 9>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page9 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 9>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page9 used on input 
-line 1833.
+line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [148
 
@@ -2125,17 +2125,17 @@ line 1833.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 10>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page10 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 10>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page10 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 10>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page10 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [149
 
@@ -2144,17 +2144,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page10 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 11>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page11 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 11>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page11 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 11>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page11 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [150
@@ -2164,17 +2164,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page11 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 12>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page12 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 12>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page12 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 12>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page12 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [151
 
@@ -2183,17 +2183,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page12 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 13>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page13 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 13>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page13 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 13>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page13 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [152
 
@@ -2202,17 +2202,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page13 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 14>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page14 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 14>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page14 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 14>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page14 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [153
 
@@ -2221,17 +2221,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page14 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 15>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page15 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 15>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page15 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 15>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page15 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [154
 
@@ -2240,17 +2240,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page15 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 16>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page16 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 16>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page16 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 16>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page16 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [155
 
@@ -2259,17 +2259,17 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page16 used on input
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 17>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page17 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 17>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page17 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_4_ex_4_maple.pdf Graphic file (type pdf)
 <use exercises/bord_4_ex_4_maple.pdf, page 17>
 Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page17 used on input
- line 1833.
+ line 1832.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [156
 
@@ -2277,115 +2277,115 @@ Package pdftex.def Info: exercises/bord_4_ex_4_maple.pdf , page17 used on input
 <exercises/wc_4_ex_1.pdf, id=5003, 614.295pt x 794.97pt>
 File: exercises/wc_4_ex_1.pdf Graphic file (type pdf)
 <use exercises/wc_4_ex_1.pdf>
-Package pdftex.def Info: exercises/wc_4_ex_1.pdf  used on input line 1839.
+Package pdftex.def Info: exercises/wc_4_ex_1.pdf  used on input line 1838.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 <assets/wc_4_ex_2.png, id=5004, 343.2825pt x 274.77657pt>
 File: assets/wc_4_ex_2.png Graphic file (type png)
 <use assets/wc_4_ex_2.png>
-Package pdftex.def Info: assets/wc_4_ex_2.png  used on input line 1847.
+Package pdftex.def Info: assets/wc_4_ex_2.png  used on input line 1846.
 (pdftex.def)             Requested size: 362.37569pt x 290.05844pt.
  [157 <./exercises/wc_4_ex_1.pdf>]
 <exercises/wc_4_ex_2.pdf, id=5014, 614.295pt x 794.97pt>
 File: exercises/wc_4_ex_2.pdf Graphic file (type pdf)
 <use exercises/wc_4_ex_2.pdf>
-Package pdftex.def Info: exercises/wc_4_ex_2.pdf  used on input line 1854.
+Package pdftex.def Info: exercises/wc_4_ex_2.pdf  used on input line 1853.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [158 <./assets/wc_4_ex_2.png (PNG copy)>]
 <assets/huis_5_ex_1.png, id=5018, 522.45187pt x 484.05844pt>
 File: assets/huis_5_ex_1.png Graphic file (type png)
 <use assets/huis_5_ex_1.png>
-Package pdftex.def Info: assets/huis_5_ex_1.png  used on input line 1866.
+Package pdftex.def Info: assets/huis_5_ex_1.png  used on input line 1865.
 (pdftex.def)             Requested size: 362.37569pt x 335.75119pt.
  [159 <./exercises/wc_4_ex_2.pdf>]
 <exercises/huis_5_ex_2.pdf, id=5027, 614.295pt x 794.97pt>
 File: exercises/huis_5_ex_2.pdf Graphic file (type pdf)
 <use exercises/huis_5_ex_2.pdf>
-Package pdftex.def Info: exercises/huis_5_ex_2.pdf  used on input line 1873.
+Package pdftex.def Info: exercises/huis_5_ex_2.pdf  used on input line 1872.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [160 <./assets/huis_5_ex_1.png (PNG copy)>]
 <exercises/huis_5_ex_3.pdf, id=5031, 614.295pt x 794.97pt>
 File: exercises/huis_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/huis_5_ex_3.pdf>
-Package pdftex.def Info: exercises/huis_5_ex_3.pdf  used on input line 1880.
+Package pdftex.def Info: exercises/huis_5_ex_3.pdf  used on input line 1879.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [161 <./exercises/huis_5_ex_2.pdf>]
 <assets/huis_5_ex_4.png, id=5039, 331.99031pt x 509.65407pt>
 File: assets/huis_5_ex_4.png Graphic file (type png)
 <use assets/huis_5_ex_4.png>
-Package pdftex.def Info: assets/huis_5_ex_4.png  used on input line 1888.
+Package pdftex.def Info: assets/huis_5_ex_4.png  used on input line 1887.
 (pdftex.def)             Requested size: 362.37569pt x 556.32848pt.
  [162 <./exercises/huis_5_ex_3.pdf>]
 <exercises/huis_5_ex_4.pdf, id=5047, 614.295pt x 794.97pt>
 File: exercises/huis_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/huis_5_ex_4.pdf>
-Package pdftex.def Info: exercises/huis_5_ex_4.pdf  used on input line 1895.
+Package pdftex.def Info: exercises/huis_5_ex_4.pdf  used on input line 1894.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [163 <./assets/huis_5_ex_4.png (PNG copy)>]
 <assets/huis_5_ex_5.png, id=5052, 463.7325pt x 466.74374pt>
 File: assets/huis_5_ex_5.png Graphic file (type png)
 <use assets/huis_5_ex_5.png>
-Package pdftex.def Info: assets/huis_5_ex_5.png  used on input line 1903.
+Package pdftex.def Info: assets/huis_5_ex_5.png  used on input line 1902.
 (pdftex.def)             Requested size: 362.37569pt x 364.73523pt.
  [164 <./exercises/huis_5_ex_4.pdf>]
 <exercises/huis_5_ex_5.pdf, id=5060, 614.295pt x 794.97pt>
 File: exercises/huis_5_ex_5.pdf Graphic file (type pdf)
 <use exercises/huis_5_ex_5.pdf>
-Package pdftex.def Info: exercises/huis_5_ex_5.pdf  used on input line 1910.
+Package pdftex.def Info: exercises/huis_5_ex_5.pdf  used on input line 1909.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [165 <./assets/huis_5_ex_5.png (PNG copy)>]
 <assets/bord_5_ex_1.png, id=5064, 509.65407pt x 384.6872pt>
 File: assets/bord_5_ex_1.png Graphic file (type png)
 <use assets/bord_5_ex_1.png>
-Package pdftex.def Info: assets/bord_5_ex_1.png  used on input line 1920.
+Package pdftex.def Info: assets/bord_5_ex_1.png  used on input line 1919.
 (pdftex.def)             Requested size: 362.37569pt x 273.53484pt.
  [166 <./exercises/huis_5_ex_5.pdf>]
 <exercises/bord_5_ex_2.pdf, id=5072, 614.295pt x 794.97pt>
 File: exercises/bord_5_ex_2.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_2.pdf>
-Package pdftex.def Info: exercises/bord_5_ex_2.pdf  used on input line 1927.
+Package pdftex.def Info: exercises/bord_5_ex_2.pdf  used on input line 1926.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
  [167 <./assets/bord_5_ex_1.png (PNG copy)>]
 <assets/bord_5_ex_2.png, id=5076, 525.46312pt x 618.05907pt>
 File: assets/bord_5_ex_2.png Graphic file (type png)
 <use assets/bord_5_ex_2.png>
-Package pdftex.def Info: assets/bord_5_ex_2.png  used on input line 1934.
+Package pdftex.def Info: assets/bord_5_ex_2.png  used on input line 1933.
 (pdftex.def)             Requested size: 362.37569pt x 426.24431pt.
  [168 <./exercises/bord_5_ex_2.pdf>]
 <exercises/bord_5_ex_3.pdf, id=5084, 614.295pt x 794.97pt>
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf>
-Package pdftex.def Info: exercises/bord_5_ex_3.pdf  used on input line 1940.
+Package pdftex.def Info: exercises/bord_5_ex_3.pdf  used on input line 1939.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf>
-Package pdftex.def Info: exercises/bord_5_ex_3.pdf  used on input line 1940.
+Package pdftex.def Info: exercises/bord_5_ex_3.pdf  used on input line 1939.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/bord_5_ex_3.pdf, id=5087, page=1, 614.295pt x 794.97pt>
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [169 <./assets/bord_5_ex_2.png (PNG copy)>]
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 1>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [170
 
@@ -2394,17 +2394,17 @@ Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page1 used on input line 1
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page2 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page2 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/bord_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/bord_5_ex_3.pdf, page 2>
 Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page2 used on input line 1
-940.
+939.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [171
 
@@ -2412,7 +2412,7 @@ Package pdftex.def Info: exercises/bord_5_ex_3.pdf , page2 used on input line 1
 <assets/ilkay.png, id=5106, 201.75375pt x 310.91156pt>
 File: assets/ilkay.png Graphic file (type png)
 <use assets/ilkay.png>
-Package pdftex.def Info: assets/ilkay.png  used on input line 1945.
+Package pdftex.def Info: assets/ilkay.png  used on input line 1944.
 (pdftex.def)             Requested size: 362.37569pt x 558.44482pt.
 
 
@@ -2421,62 +2421,62 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <assets/wc_5_ex_1.png, id=5107, 490.08093pt x 383.93437pt>
 File: assets/wc_5_ex_1.png Graphic file (type png)
 <use assets/wc_5_ex_1.png>
-Package pdftex.def Info: assets/wc_5_ex_1.png  used on input line 1954.
+Package pdftex.def Info: assets/wc_5_ex_1.png  used on input line 1953.
 (pdftex.def)             Requested size: 362.37569pt x 283.89607pt.
 <exercises/wc_5_ex_2.pdf, id=5108, 614.295pt x 794.97pt>
 File: exercises/wc_5_ex_2.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_2.pdf>
-Package pdftex.def Info: exercises/wc_5_ex_2.pdf  used on input line 1961.
+Package pdftex.def Info: exercises/wc_5_ex_2.pdf  used on input line 1960.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 [172 <./assets/wc_5_ex_1.png (PNG copy)>]
 <assets/wc_5_ex_3.png, id=5113, 389.95688pt x 335.00156pt>
 File: assets/wc_5_ex_3.png Graphic file (type png)
 <use assets/wc_5_ex_3.png>
-Package pdftex.def Info: assets/wc_5_ex_3.png  used on input line 1968.
+Package pdftex.def Info: assets/wc_5_ex_3.png  used on input line 1967.
 (pdftex.def)             Requested size: 362.37569pt x 311.31819pt.
  [173 <./exercises/wc_5_ex_2.pdf>]
 <exercises/wc_5_ex_3.pdf, id=5121, 614.295pt x 794.97pt>
 File: exercises/wc_5_ex_3.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_3.pdf>
-Package pdftex.def Info: exercises/wc_5_ex_3.pdf  used on input line 1975.
+Package pdftex.def Info: exercises/wc_5_ex_3.pdf  used on input line 1974.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
 
 [174 <./assets/wc_5_ex_3.png (PNG copy)>]
 <exercises/wc_5_ex_4.pdf, id=5125, 614.295pt x 794.97pt>
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf>
-Package pdftex.def Info: exercises/wc_5_ex_4.pdf  used on input line 1981.
+Package pdftex.def Info: exercises/wc_5_ex_4.pdf  used on input line 1980.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf>
-Package pdftex.def Info: exercises/wc_5_ex_4.pdf  used on input line 1981.
+Package pdftex.def Info: exercises/wc_5_ex_4.pdf  used on input line 1980.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 <exercises/wc_5_ex_4.pdf, id=5128, page=1, 614.295pt x 794.97pt>
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 1>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 1>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [175 <./exercises/wc_5_ex_3.pdf>]
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 1>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 1>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 1>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 
 [176
@@ -2486,17 +2486,17 @@ Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page1 used on input line 198
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 2>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page2 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 2>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page2 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 File: exercises/wc_5_ex_4.pdf Graphic file (type pdf)
 <use exercises/wc_5_ex_4.pdf, page 2>
 Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page2 used on input line 198
-1.
+0.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [177
 
@@ -2504,40 +2504,114 @@ Package pdftex.def Info: exercises/wc_5_ex_4.pdf , page2 used on input line 198
 <assets/huis_6_ex_1.png, id=5149, 491.58656pt x 543.53062pt>
 File: assets/huis_6_ex_1.png Graphic file (type png)
 <use assets/huis_6_ex_1.png>
-Package pdftex.def Info: assets/huis_6_ex_1.png  used on input line 1988.
+Package pdftex.def Info: assets/huis_6_ex_1.png  used on input line 1987.
 (pdftex.def)             Requested size: 362.37569pt x 400.68033pt.
 <assets/huis_6_ex_2.png, id=5150, 534.49687pt x 459.21562pt>
 File: assets/huis_6_ex_2.png Graphic file (type png)
 <use assets/huis_6_ex_2.png>
-Package pdftex.def Info: assets/huis_6_ex_2.png  used on input line 1996.
+Package pdftex.def Info: assets/huis_6_ex_2.png  used on input line 1995.
 (pdftex.def)             Requested size: 362.37569pt x 311.35156pt.
  [178 <./assets/huis_6_ex_1.png (PNG copy)>]
-<assets/huis_6_ex_9.png, id=5154, 538.26094pt x 564.60938pt>
+<assets/huis_6_ex_3.png, id=5154, 456.95718pt x 435.12563pt>
+File: assets/huis_6_ex_3.png Graphic file (type png)
+<use assets/huis_6_ex_3.png>
+Package pdftex.def Info: assets/huis_6_ex_3.png  used on input line 2003.
+(pdftex.def)             Requested size: 362.37569pt x 345.07336pt.
+ [179 <./assets/huis_6_ex_2.png (PNG copy)>]
+<assets/huis_6_ex_4.png, id=5158, 499.11469pt x 196.48407pt>
+File: assets/huis_6_ex_4.png Graphic file (type png)
+<use assets/huis_6_ex_4.png>
+Package pdftex.def Info: assets/huis_6_ex_4.png  used on input line 2011.
+(pdftex.def)             Requested size: 362.37569pt x 142.65866pt.
+<assets/huis_6_ex_5.png, id=5159, 528.47438pt x 484.05844pt>
+File: assets/huis_6_ex_5.png Graphic file (type png)
+<use assets/huis_6_ex_5.png>
+Package pdftex.def Info: assets/huis_6_ex_5.png  used on input line 2019.
+(pdftex.def)             Requested size: 362.37569pt x 331.91779pt.
+
+[180 <./assets/huis_6_ex_3.png (PNG copy)> <./assets/huis_6_ex_4.png (PNG copy)
+>]
+<exercises/huis_6_ex_5.pdf, id=5163, 614.295pt x 794.97pt>
+File: exercises/huis_6_ex_5.pdf Graphic file (type pdf)
+<use exercises/huis_6_ex_5.pdf>
+Package pdftex.def Info: exercises/huis_6_ex_5.pdf  used on input line 2026.
+(pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
+ [181 <./assets/huis_6_ex_5.png (PNG copy)>]
+<assets/huis_6_ex_6.png, id=5168, 505.89pt x 490.83376pt>
+File: assets/huis_6_ex_6.png Graphic file (type png)
+<use assets/huis_6_ex_6.png>
+Package pdftex.def Info: assets/huis_6_ex_6.png  used on input line 2034.
+(pdftex.def)             Requested size: 362.37569pt x 351.59506pt.
+ [182 <./exercises/huis_6_ex_5.pdf>]
+<exercises/huis_6_ex_6.pdf, id=5177, 614.295pt x 794.97pt>
+File: exercises/huis_6_ex_6.pdf Graphic file (type pdf)
+<use exercises/huis_6_ex_6.pdf>
+Package pdftex.def Info: exercises/huis_6_ex_6.pdf  used on input line 2041.
+(pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
+ [183 <./assets/huis_6_ex_6.png (PNG copy)>]
+<assets/huis_6_ex_7.png, id=5181, 437.38406pt x 651.93562pt>
+File: assets/huis_6_ex_7.png Graphic file (type png)
+<use assets/huis_6_ex_7.png>
+Package pdftex.def Info: assets/huis_6_ex_7.png  used on input line 2048.
+(pdftex.def)             Requested size: 362.37569pt x 540.1415pt.
+ [184 <./exercises/huis_6_ex_6.pdf>]
+<assets/huis_6_ex_8.png, id=5190, 432.11438pt x 752.0597pt>
+File: assets/huis_6_ex_8.png Graphic file (type png)
+<use assets/huis_6_ex_8.png>
+Package pdftex.def Info: assets/huis_6_ex_8.png  used on input line 2055.
+(pdftex.def)             Requested size: 362.37569pt x 630.70453pt.
+ [185 <./assets/huis_6_ex_7.png (PNG copy)>]
+<assets/huis_6_ex_9.png, id=5194, 538.26094pt x 564.60938pt>
 File: assets/huis_6_ex_9.png Graphic file (type png)
 <use assets/huis_6_ex_9.png>
-Package pdftex.def Info: assets/huis_6_ex_9.png  used on input line 2004.
+Package pdftex.def Info: assets/huis_6_ex_9.png  used on input line 2062.
 (pdftex.def)             Requested size: 362.37569pt x 380.11273pt.
- [179 <./assets/huis_6_ex_2.png (PNG copy)>]
-<assets/huis_6_ex_10.png, id=5158, 524.71031pt x 618.81187pt>
+ [186 <./assets/huis_6_ex_8.png (PNG copy)>]
+<assets/huis_6_ex_10.png, id=5198, 524.71031pt x 618.81187pt>
 File: assets/huis_6_ex_10.png Graphic file (type png)
 <use assets/huis_6_ex_10.png>
-Package pdftex.def Info: assets/huis_6_ex_10.png  used on input line 2012.
+Package pdftex.def Info: assets/huis_6_ex_10.png  used on input line 2069.
 (pdftex.def)             Requested size: 362.37569pt x 427.37723pt.
-
-[180 <./assets/huis_6_ex_9.png (PNG copy)>]
-<assets/huis_6_ex_11.png, id=5162, 504.38437pt x 430.60875pt>
+ [187 <./assets/huis_6_ex_9.png (PNG copy)>]
+<assets/huis_6_ex_11.png, id=5203, 504.38437pt x 430.60875pt>
 File: assets/huis_6_ex_11.png Graphic file (type png)
 <use assets/huis_6_ex_11.png>
-Package pdftex.def Info: assets/huis_6_ex_11.png  used on input line 2021.
+Package pdftex.def Info: assets/huis_6_ex_11.png  used on input line 2076.
 (pdftex.def)             Requested size: 362.37569pt x 309.37442pt.
- [181 <./assets/huis_6_ex_10.png (PNG copy)>]
-<exercises/huis_6_ex_11.pdf, id=5167, 614.295pt x 794.97pt>
+ [188 <./assets/huis_6_ex_10.png (PNG copy)>]
+<exercises/huis_6_ex_11.pdf, id=5207, 614.295pt x 794.97pt>
 File: exercises/huis_6_ex_11.pdf Graphic file (type pdf)
 <use exercises/huis_6_ex_11.pdf>
-Package pdftex.def Info: exercises/huis_6_ex_11.pdf  used on input line 2029.
+Package pdftex.def Info: exercises/huis_6_ex_11.pdf  used on input line 2084.
 (pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
- [182 <./assets/huis_6_ex_11.png (PNG copy)>] [183 <./exercises/huis_6_ex_11.pd
-f>] [184 <./assets/ilkay.png (PNG copy)>] (./main.aux)
+ [189 <./assets/huis_6_ex_11.png (PNG copy)>]
+<assets/huis_6_ex_12.png, id=5211, 503.63156pt x 641.39626pt>
+File: assets/huis_6_ex_12.png Graphic file (type png)
+<use assets/huis_6_ex_12.png>
+Package pdftex.def Info: assets/huis_6_ex_12.png  used on input line 2092.
+(pdftex.def)             Requested size: 362.37569pt x 461.50156pt.
+ [190 <./exercises/huis_6_ex_11.pdf>]
+<exercises/huis_6_ex_12.pdf, id=5219, 614.295pt x 794.97pt>
+File: exercises/huis_6_ex_12.pdf Graphic file (type pdf)
+<use exercises/huis_6_ex_12.pdf>
+Package pdftex.def Info: exercises/huis_6_ex_12.pdf  used on input line 2099.
+(pdftex.def)             Requested size: 362.37569pt x 468.95546pt.
+ [191 <./assets/huis_6_ex_12.png (PNG copy)>]
+<assets/huis_6_ex_13.png, id=5223, 407.27156pt x 636.87938pt>
+File: assets/huis_6_ex_13.png Graphic file (type png)
+<use assets/huis_6_ex_13.png>
+Package pdftex.def Info: assets/huis_6_ex_13.png  used on input line 2107.
+(pdftex.def)             Requested size: 362.37569pt x 566.69453pt.
+
+[192 <./exercises/huis_6_ex_12.pdf>]
+<assets/2024-11-10-11-45-23.png, id=5231, 459.96844pt x 543.53062pt>
+File: assets/2024-11-10-11-45-23.png Graphic file (type png)
+<use assets/2024-11-10-11-45-23.png>
+Package pdftex.def Info: assets/2024-11-10-11-45-23.png  used on input line 211
+5.
+(pdftex.def)             Requested size: 362.37569pt x 428.23166pt.
+ [193 <./assets/huis_6_ex_13.png (PNG copy)>] [194 <./assets/2024-11-10-11-45-2
+3.png (PNG copy)>] [195 <./assets/ilkay.png (PNG copy)>] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -2548,10 +2622,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15716 strings out of 476106
- 333205 string characters out of 5793932
+ 15812 strings out of 476106
+ 336074 string characters out of 5793932
  1935975 words of memory out of 5000000
- 37471 multiletter control sequences out of 15000+600000
+ 37567 multiletter control sequences out of 15000+600000
  565078 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  102i,17n,107p,536b,429s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2570,10 +2644,10 @@ mr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (184 pages, 14810123 bytes).
+Output written on main.pdf (195 pages, 15657006 bytes).
 PDF statistics:
- 5255 PDF objects out of 6186 (max. 8388607)
- 627 compressed objects within 7 object streams
+ 5316 PDF objects out of 6186 (max. 8388607)
+ 662 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 1163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
