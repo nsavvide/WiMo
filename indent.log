@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.24.4, 2024-07-18, a script to indent .tex files
        latexindent lives here: /home/potato/.local/share/nvim/mason/packages/latexindent/
-       Sun Nov 10 11:46:41 2024
+       Mon Nov 11 15:10:20 2024
        Reading input from STDIN
 INFO:  Processing switches:
 INFO:  Directory for backup files and log file indent.log:
