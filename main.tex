@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{report}
 
 \usepackage{fullpage} % Package to use full page
 \usepackage{parskip} % Package to tweak paragraph skipping
@@ -11,13 +11,13 @@
 
 \title{Zero to Hero: WiMo}
 \author{Niels Savvides}
-\date{2024/10/30}
+\date{\today}
 
 \begin{document}
 
 \maketitle
 
-\section{Analyse in 1 veranderlijke: enkele aspecten}
+\chapter{Analyse in 1 veranderlijke: enkele aspecten}
 
 \subsection{Continuiteitseigenschappen van functies}
 
@@ -159,7 +159,7 @@ $x_2 = \frac{-b - \sqrt{b^2 - 4ac}}{2a}$
 
 met $b = -4*a*c$ vinden we de discriminant.
 
-\section{Lineare Algebra}
+\chapter{Lineare Algebra}
 
 \subsection{Lineare onafhanlijkheid}
 
@@ -573,7 +573,7 @@ Als we compressie willen uitvoeren moeten we essentially SVD uitvoeren, maar onz
 
 $A = \sum_{i=1}^{r'} \sigma_i u_i v_i^T$
 
-\section{Hoofdstuk 3: Integratie en afleiding in $R^n$}
+\chapter{Hoofdstuk 3: Integratie en afleiding in $R^n$}
 
 \subsection{Partiele afgeleiden}
 
@@ -878,7 +878,7 @@ Basically we willen de integraal veranderen van coordinatenstelsel. Dit kan via 
 	\label{fig:voorbeeld_pool_coordinaten}
 \end{figure}
 
-\section{Hoofdstuk 4: Vectoranalyse in drie dimensies }
+\chapter{Vectoranalyse in drie dimensies }
 
 \subsection{Vectoren en vector bewerkingen}
 
@@ -1291,6 +1291,98 @@ Het ander voorbeeld is behoudt van lading:
 	\label{fig:lading}
 \end{figure}
 
+\chapter{Gewone Lineaire Differentiaalvergelijkingen}
+
+Note: Dit is meer een oefening gerichte hoofdstuk.
+
+Eerst definieren we een paar termen:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/termen_hf5.png}
+	\caption{Termen}
+	\label{fig:termen_hf5}
+\end{figure}
+
+In woorden: Homogeen heeft geen source, linear wel, orde wordt bepaald door de hoogste afgeleide, en differentiaalvergelijkingen zijn gewoon vergelijkingen met afgeleiden.
+
+\subsection{Voorbeelden}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/some_DV_examples.png}
+	\caption{Some DV examples}
+	\label{fig:some_dv_examples}
+\end{figure}
+
+\textbf{Wronkiaan}: Dit is een determinant van de matrix van de afgeleiden van de functies. Als deze determinant = 0, dan zijn de functies lineair afhankelijk.
+We willen meestal checkecn of een matrix lineair onafhankelijk is, dit doen we door de determinant te berekenen en zien of het $\neq 0$.
+
+$$ W = \begin{vmatrix} y_1 & y_2 & y_3 \\ y_1' & y_2' & y_3' \\ y_1'' & y_2'' & y_3'' \end{vmatrix} $$
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wronskiaan_voorbeeld.png}
+	\caption{Wronskiaan voorbeeld}
+	\label{fig:wronskiaan_voorbeeld}
+\end{figure}
+
+Hoe bepalen we de verschillende oplossingen van een differentiaalvergelijking?
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bepalen_y_i.png}
+	\caption{Bepalen $y_i$}
+	\label{fig:bepalen_y_i}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/voorbeeld_dv_calc.png}
+	\caption{Voorbeeld DV calc}
+	\label{fig:voorbeeld_dv_calc}
+\end{figure}
+
+Dan heb je ook het concept van particuliere oplossingen, dit zijn oplossingen die je zelf moet vinden. Dit kan je doen door de methode van de variatie van de constanten toe te passen.
+Aka, je neemt de algemene oplossing en je gaat de constanten veranderen naar functies.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/particuliere_oplossingen.png}
+	\caption{Particuliere oplossingen}
+	\label{fig:particuliere_oplossingen}
+\end{figure}
+
+\subsection{Beginvoorwaarden calculeren}
+
+Essentially, we gaan de beginvoorwaarden gebruiken om de constanten te berekenen. Dit doen we door de functie in te vullen in de differentiaalvergelijking en dan de constanten te berekenen.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/beginvoorwaarden_calculatie.png}
+	\caption{Beginvoorwaarden calculatie}
+	\label{fig:beginvoorwaarden_calculatie}
+\end{figure}
+
+\subsection{Rand versus beginvoorwaarden probleem}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/rand-vs-beginvoorwaarden.png}
+	\caption{Rand vs beginvoorwaarden}
+	\label{fig:rand-vs-beginvoorwaarden}
+\end{figure}
+
+De professor vond het ook leuk om een beetje fysica toe te voegen:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/rlc-stuff.png}
+	\caption{RLC en gedempte trillingen}
+	\label{fig:rlc-stuff}
+\end{figure}
 
 \section*{Formularium}
 
