@@ -5,6 +5,7 @@
 \usepackage{tikz} % Package for drawing
 \usepackage{amsmath}
 \usepackage{float}
+\usepackage{hyperref}
 % \usepackage{hyperref}
 \usepackage{pdfpages} % For inserting entire pages from a PDF
 \usepackage{graphicx} % For including images
@@ -1384,6 +1385,249 @@ De professor vond het ook leuk om een beetje fysica toe te voegen:
 	\label{fig:rlc-stuff}
 \end{figure}
 
+\chapter{Fourier Expansies}
+
+$$ f(t) = \frac{1}{2} a_0 + \sum_{n=1}^{\infty} a_n cos(nt) + b_n sin(nt) $$
+
+met $a_n = \frac{1}{pi} \int_{-\pi}^{\pi} dt f(t) cos(nt)$
+en $b_n = \frac{1}{pi} \int_{-\pi}^{\pi} dt f(t) sin(nt)$, met $T = \frac{2\pi}{n}$
+en $f(t) = \sum_{n=-\infty}^{\infty} c_n e^{int}$, waar we weten dat $f(t)$ een periode heeft van $2\pi$. ($f(t + 2\pi) = f(t)$)
+
+Algemeen kunnen we $a_n$ (of $b_n$) berekenen door: $a_n = \frac{1}{\pi} \int_{t_0}^{t_0 + 2\pi} dt f(t) cos(nt)$
+
+Hieruit kunnen we $c_0$ en $c_n$ berekenen:
+
+$c_0 = \frac{a_0}{2}$
+
+$c_n = \frac{a_n - ib_n}{2}$, $c_{-n} = \frac{a_n + ib_n}{2}$
+
+of $c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} dt f(t) e^{-int}$
+
+Fourierreeks is het transformeren van tijdsdomein naar frequentiedomein.
+
+We zien dus ook dat $b_n$ het complex deel is van de fourier expansie.
+
+Onze $a_n$ en $b_n$ ervaren verschillende scenarios:
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/a_n_b_n_even_oneven.png}
+	\caption{Sinus is oneven, cosinus is even}
+	\label{fig:a_n_b_n_even_oneven}
+\end{figure}
+
+\subsection{Orthogonale basisfuncties}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/ortho_relaties_basis_functies.png}
+	\caption{Orthogonale relaties basis functies}
+	\label{fig:ortho_relaties_basis_functies}
+\end{figure}
+
+We hebben heel de tijd er van uitgegaan dat we tussen $-\pi$ en $\pi$ werken, maar dit is niet altijd het geval. We kunnen ook werken tussen $0$ en $2\pi$ of zelfs $0$ en $T$. (algemeen)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/algemeen_periode_fourier.png}
+	\caption{Algemeen periode}
+	\label{fig:algemeen_periode_fourier}
+\end{figure}
+
+\subsection{Convergentie}
+
+We weten wat de fourier expansie is. Als we nu het volgende definieren:
+
+$\sum_{n=-N}^{N} c_n e^{int}$, we kijken hoe goed $F_N(t)$ de functie benaderd.
+
+De voorwaarde is dat $A c C c B$
+
+\textbf{A: Convergentie in het gemiddelde}
+
+Convergentie kunnen we definieren als:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/convergentie_fourier.png}
+	\caption{Convergentie fourier}
+	\label{fig:convergentie_fourier}
+\end{figure}
+
+\textbf{B: f is continu, f' is stuksgewijs continu}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/f_is_continue_and_f_acc_is_stukgewijs_continue.png}
+	\caption{f is continue en f' is stuksgewijs continue}
+	\label{fig:f_is_continue_and_f_acc_is_stukgewijs_continue}
+\end{figure}
+
+\textbf{C: f is stuksgewijs glad}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/f_is_stukgewijs_continue.png}
+	\caption{f is stuksgewijs glad}
+	\label{fig:f_is_stukgewijs_glad}
+\end{figure}
+
+\subsection{Periodieke extensies en de cosinus reeks}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/periodieke_extensies_en_cosinusreeks.png}
+	\caption{Periodieke extensies en de cosinus reeks}
+	\label{fig:periodieke_extensies_en_cosinusreeks}
+\end{figure}
+
+Als deze reeks convergeerd, dan is dit ook zo voor $f(t + k\pi)$
+
+Net zoals de cosinusreeks hebben we ook de sinusreeks, dit is de situatie waarbij $f = -f(-t)$ (oneven functie)
+
+\subsection{Discrete Fourier Transformatie}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/uitleg_dft.png}
+	\caption{Uitleg DFT}
+	\label{fig:uitleg_dft}
+\end{figure}
+
+\href{https://www.youtube.com/watch?v=mkGsMWi_j4Q}{DFT explained} $\rightarrow$ Great video.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/def_dft_inverse_dft.png}
+	\caption{Definitie DFT en inverse DFT}
+	\label{fig:def_dft_inverse_dft}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/dft_inverse_dft_textbook.png}
+	\caption{DFT en inverse DFT}
+	\label{fig:dft_inverse_dft_textbook}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/relatie_met_fourierreeks.png}
+	\caption{Relatie met fourierreeks}
+	\label{fig:relatie_met_fourierreeks}
+\end{figure}
+
+Waar het effect van aliasing zich vertoont:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/aliasing.png}
+	\caption{Aliasing}
+	\label{fig:aliasing}
+\end{figure}
+
+\subsection{Fast Fourier Transform (FFT)}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/ffty.png}
+	\caption{fast fourier transform}
+	\label{fig:ffty}
+\end{figure}
+
+\section*{Fast Fourier Transform (FFT) Algorithm}
+
+The Fast Fourier Transform (FFT) computes the Discrete Fourier Transform (DFT) efficiently by using a divide-and-conquer strategy. The DFT is given by:
+
+\[
+	X[k] = \sum_{n=0}^{N-1} x[n] e^{-j \frac{2\pi}{N} kn}, \quad k = 0, 1, \dots, N-1
+\]
+
+\subsection*{Step 1: Divide into Even and Odd Parts}
+Split the input \( x[n] \) into even- and odd-indexed components:
+\[
+	x_{\text{even}} = \{x[0], x[2], \dots\}, \quad x_{\text{odd}} = \{x[1], x[3], \dots\}
+\]
+
+\subsection*{Step 2: Recursive DFTs}
+Compute the DFTs of the smaller sequences:
+\[
+	X_{\text{even}}[k] = \sum_{n=0}^{N/2-1} x_{\text{even}}[n] e^{-j \frac{2\pi}{N/2} kn}
+\]
+\[
+	X_{\text{odd}}[k] = \sum_{n=0}^{N/2-1} x_{\text{odd}}[n] e^{-j \frac{2\pi}{N/2} kn}
+\]
+
+\subsection*{Step 3: Combine Results}
+Combine the smaller DFTs to form the complete result:
+\[
+	X[k] = X_{\text{even}}[k] + W_N^k X_{\text{odd}}[k], \quad k = 0, 1, \dots, N/2-1
+\]
+\[
+	X[k+N/2] = X_{\text{even}}[k] - W_N^k X_{\text{odd}}[k], \quad k = 0, 1, \dots, N/2-1
+\]
+where \( W_N^k = e^{-j \frac{2\pi}{N} k} \) are the twiddle factors.
+
+---
+
+\section*{FFT Example: \( x[n] = [1, 2, 3, 4] \)}
+
+Given the signal \( x[n] = [1, 2, 3, 4] \) and \( N = 4 \), we compute the FFT step by step.
+
+\subsection*{Step 1: Divide into Even and Odd Parts}
+\[
+	x_{\text{even}} = [1, 3], \quad x_{\text{odd}} = [2, 4]
+\]
+
+\subsection*{Step 2: Compute Smaller DFTs}
+\textbf{DFT for \( x_{\text{even}} = [1, 3] \):}
+\[
+	X_{\text{even}}[0] = 1 + 3 = 4, \quad X_{\text{even}}[1] = 1 - 3 = -2
+\]
+\[
+	X_{\text{even}} = [4, -2]
+\]
+
+\textbf{DFT for \( x_{\text{odd}} = [2, 4] \):}
+\[
+	X_{\text{odd}}[0] = 2 + 4 = 6, \quad X_{\text{odd}}[1] = 2 - 4 = -2
+\]
+\[
+	X_{\text{odd}} = [6, -2]
+\]
+
+\subsection*{Step 3: Combine Results}
+\textbf{For \( k = 0 \):}
+\[
+	X[0] = X_{\text{even}}[0] + W_4^0 X_{\text{odd}}[0] = 4 + 6 = 10
+\]
+\[
+	X[2] = X_{\text{even}}[0] - W_4^0 X_{\text{odd}}[0] = 4 - 6 = -2
+\]
+
+\textbf{For \( k = 1 \):}
+\[
+	X[1] = X_{\text{even}}[1] + W_4^1 X_{\text{odd}}[1], \quad W_4^1 = e^{-j\frac{\pi}{2}} = -j
+\]
+\[
+	X[1] = -2 + (-j)(-2) = -2 + 2j
+\]
+\[
+	X[3] = X_{\text{even}}[1] - W_4^1 X_{\text{odd}}[1]
+\]
+\[
+	X[3] = -2 - (-j)(-2) = -2 - 2j
+\]
+
+\subsection*{Final Result}
+\[
+	X[k] = [10, -2 + 2j, -2, -2 - 2j]
+\]
+
+
+
+
 \section*{Formularium}
 
 \subsection*{Taylorontwikkeling}
@@ -2345,12 +2589,284 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 	\label{fig:huis_7_ex_6}
 \end{figure}
 
+\subsection*{Huis 8}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_1_huis_8.png}
+	\caption{Exercise 1}
+	\label{fig:exercise_1_huis_8}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_2_huis_8.png}
+	\caption{Exercise 2}
+	\label{fig:exercise_2_huis_8}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_3_huis_8.png}
+	\caption{Exercise 3}
+	\label{fig:exercise_3_huis_8}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_4_huis_8.png}
+	\caption{Exercise 4}
+	\label{fig:exercise_4_huis_8}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_5_huis_8.png}
+	\caption{Exercise 5}
+	\label{fig:exercise_5_huis_8}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/exercise_6_huis_8.png}
+	\caption{Exercise 6}
+	\label{fig:exercise_6_huis_8}
+\end{figure}
+
+
+\includepdf[pages=-]{exercises/exercise_6_huis_8.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/ex_7_huis_8.pdf}
+	\caption{Exercise 7}
+	\label{fig:exercise_7_huis_8}
+\end{figure}
+
+\subsection*{Bord 8}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:bord_8_ex_1}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_8_ex_1.pdf}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:bord_8_ex_2}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_8_ex_2.pdf}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_3.png}
+	\caption{Exercise 3}
+	\label{fig:bord_8_ex_3}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_8_ex_3.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_4_part_1.png}
+	\caption{Exercise 4 Part 1}
+	\label{fig:bord_8_ex_4_part_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_4_part_2.png}
+	\caption{Exercise 4 Part 2}
+	\label{fig:bord_8_ex_4_part_2}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_4_part_2_maple.png}
+	\caption{Exercise 4 Part 2 Maple}
+	\label{fig:bord_8_ex_4_part_2_maple}
+\end{figure}
+
+Part III en IV:
+
+Given the differential equation:
+\[
+	m u''(t) + k u(t) = A \sin(\omega t),
+\]
+where \(m\) is the mass, \(k\) is the spring constant, and \(A \sin(\omega t)\) is the external forcing term. The goal is to:
+
+\begin{enumerate}
+	\item[(i)] Find the general solution to the reduced homogeneous differential equation.
+	\item[(ii)] Find the particular solution to the complete differential equation.
+	\item[(iii)] Solve the initial value problem.
+	\item[(iv)] Analyze the asymptotic behavior of the solution, including resonance.
+\end{enumerate}
+
+\subsection*{Part (i): General Solution to the Homogeneous Equation}
+
+The homogeneous equation is:
+\[
+	m u''(t) + k u(t) = 0.
+\]
+
+\textbf{Step 1: Solve the characteristic equation.}
+
+The characteristic equation is:
+\[
+	m r^2 + k = 0 \implies r = \pm i \sqrt{\frac{k}{m}}.
+\]
+
+Let \(\omega_0 = \sqrt{\frac{k}{m}}\), the natural frequency of the system. The roots become \(r = \pm i \omega_0\).
+
+\textbf{Step 2: General homogeneous solution.}
+
+The general solution to the homogeneous equation is:
+\[
+	u_h(t) = C_1 \cos(\omega_0 t) + C_2 \sin(\omega_0 t),
+\]
+where \(C_1\) and \(C_2\) are arbitrary constants.
+
+Alternatively, using complex exponentials:
+\[
+	u_h(t) = D_1 e^{i\omega_0 t} + D_2 e^{-i\omega_0 t}.
+\]
+
+\subsection*{Part (ii): Particular Solution to the Complete Equation}
+
+For the forcing term \(A \sin(\omega t)\), assume the particular solution:
+\[
+	u_p(t) = \alpha \sin(\omega t) + \beta \cos(\omega t),
+\]
+where \(\alpha\) and \(\beta\) are constants to be determined.
+
+\textbf{Case 1: \(\omega \neq \omega_0\)}
+
+Substituting \(u_p(t)\) into the differential equation:
+\[
+	m u_p''(t) + k u_p(t) = A \sin(\omega t),
+\]
+and separating terms in \(\sin(\omega t)\) and \(\cos(\omega t)\), we obtain:
+\[
+	-m \alpha \omega^2 + k \alpha = A, \quad -m \beta \omega^2 + k \beta = 0.
+\]
+
+Solving for \(\alpha\) and \(\beta\):
+\[
+	\alpha = \frac{A}{k - m \omega^2}, \quad \beta = 0.
+\]
+
+Thus, the particular solution is:
+\[
+	u_p(t) = \frac{A}{k - m \omega^2} \sin(\omega t).
+\]
+
+\textbf{Case 2: \(\omega = \omega_0\) (Resonance)}
+
+When \(\omega = \omega_0\), the forcing frequency matches the natural frequency. Assume:
+\[
+	u_p(t) = \gamma t \cos(\omega_0 t),
+\]
+where \(\gamma\) is to be determined. Substituting into the differential equation, we find:
+\[
+	\gamma = -\frac{A}{2m \omega_0}.
+\]
+
+Thus, the particular solution is:
+\[
+	u_p(t) = -\frac{A}{2m \omega_0} t \cos(\omega_0 t).
+\]
+
+\subsection*{Part (iii): Initial Value Problem}
+
+The general solution is the sum of the homogeneous and particular solutions:
+\[
+	u(t) = u_h(t) + u_p(t).
+\]
+
+\textbf{Case 1: \(\omega \neq \omega_0\)}
+\[
+	u(t) = C_1 \cos(\omega_0 t) + C_2 \sin(\omega_0 t) + \frac{A}{k - m \omega^2} \sin(\omega t).
+\]
+
+Using the initial conditions \(u(0) = u_0\) and \(u'(0) = u_1\):
+\[
+	u(0) = C_1 = u_0,
+\]
+\[
+	u'(0) = C_2 \omega_0 + \omega \frac{A}{k - m \omega^2} = u_1 \implies C_2 = \frac{u_1 - \omega \frac{A}{k - m \omega^2}}{\omega_0}.
+\]
+
+\textbf{Case 2: \(\omega = \omega_0\)}
+\[
+	u(t) = C_1 \cos(\omega_0 t) + C_2 \sin(\omega_0 t) - \frac{A}{2m \omega_0} t \cos(\omega_0 t).
+\]
+
+Using the initial conditions:
+\[
+	u(0) = C_1 = u_0,
+\]
+\[
+	u'(0) = C_2 \omega_0 - \frac{A}{2m \omega_0} = u_1 \implies C_2 = \frac{u_1 + \frac{A}{2m \omega_0}}{\omega_0}.
+\]
+
+\subsection*{Part (iv): Asymptotic Behavior}
+
+\textbf{Case 1: \(\omega \neq \omega_0\)}
+
+For large \(t\), the transient terms (from the homogeneous solution) decay, leaving the steady-state solution:
+\[
+	u(t) \to \frac{A}{k - m \omega^2} \sin(\omega t).
+\]
+
+\textbf{Case 2: \(\omega = \omega_0\) (Resonance)}
+
+For large \(t\), the amplitude of the oscillation grows linearly due to the \(-\frac{A}{2m \omega_0} t \cos(\omega_0 t)\) term. This is resonance, where the system experiences unbounded oscillations.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_8_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:bord_8_ex_5}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_8_ex_5.pdf}
+
+\subsection*{WC 8}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_8_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:wc_8_ex_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_8_ex_1_part_3.png}
+	\caption{Exercise 1 Part 3}
+	\label{fig:wc_8_ex_1_part_3}
+\end{figure}
+
+\includepdf[pages=3-5]{assets/WC_8_oplossing.pdf}
+
+\includepdf[pages=-]{exercises/wc_8_ex_2.pdf}
+
+\includepdf[pages=-]{assets/Quick sheets.pdf}
 
 \end{document}
 \end{document}
-
-
 \end{document}
 \end{document}
 \end{document}
