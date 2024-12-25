@@ -53,9 +53,7 @@ waarbij $a$ het \textbf{werkpunt} is.
 
 Veel voorkomende Taylorontwikkelingen:
 
-See Figure \ref{fig:veel_voorkomend_taylor}.
-
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/veel_voorkomend_taylor.png}
 	\caption{Simply use the formulas}
@@ -64,18 +62,14 @@ See Figure \ref{fig:veel_voorkomend_taylor}.
 
 \subsection*{Storingsrekening}
 
-Zie Figuur \ref{fig:storing_solution}.
-
-Of Maple solution \ref{sol:storing}.
-
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{./storing.pdf}
 	\caption{Maple solution}
 	\label{sol:storing}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/storing_solution.png}
 	\caption{1. Merk op dat als epsilon 0 is, dan is x = 1. Dus we benaderen value 1: $1 + \epsilon . u + \epsilon^2 . v$. Vul dit in the main equation. Gebruik maple om dit op te lossen en vul $u$ en $v$ in $x_1$}
@@ -98,9 +92,7 @@ $y(x) = y(0) e^{\lambda x}$
 
 \subsubsection*{Radioactief verval}
 
-Zie Figuur \ref{fig:radio_solution}.
-
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/radio_solution.png}
 	\caption{Vindt eerst de differentiaalvergelijking (zie eerste differentiaalvergelijking). Dan kunnen we de oplossing gelijkstellen aan $N_0 / 2$. Werk dit uit en je hebt $t_{1/2}$ gevonden}
@@ -166,10 +158,10 @@ met $b = -4*a*c$ vinden we de discriminant.
 \textbf{Lineare onafhankelijkheid} betekent dat de vectoren niet op een lijn liggen. Dit betekent dat de determinant van de matrix niet 0 is.
 Maar ook dat de vectoren niet een lineaire combinatie van elkaar zijn.
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/ex_lin_on.png}
-	\caption{1. Merk op dat als epsilon 0 is, dan is x = 1. Dus we benaderen value 1: $1 + \epsilon . u + \epsilon^2 . v$. Vul dit in the main equation. Gebruik maple om dit op te lossen en vul $u$ en $v$ in $x_1$}
+	\caption{Hier zien we dat de vectoren op hun zelf linear onafhankelijk zijn. Maar als we combinaties beginnen nemen dan worden ze wel lineaire combinaties van elkaar.}
 \end{figure}
 
 $v_1, v_2, v_3$ zijn lineair onafhankelijk. Maar $v_1$ en $v_2$ bijvoorbeeld, vormen een lineaire combinatie van $v_3$
@@ -180,7 +172,7 @@ $v_1, v_2, v_3$ zijn lineair onafhankelijk. Maar $v_1$ en $v_2$ bijvoorbeeld, vo
 
 - \textbf{Norm}: $||v|| = \sqrt{v \dot v}$
 
-Side note: om de \textbf{hoek} tussen 2 vectoren te vinden, $\frac{u\dot v}{||u|| ||v||} = cos(\theta)$
+Side note: om de \textbf{hoek} tussen 2 vectoren te vinden, $\frac{u . v}{||u|| ||v||} = cos(\theta)$
 
 \subsection{Gramm-Schmidt}
 
@@ -188,7 +180,7 @@ Dit gaat ons toelaten om een basis te vinden van vectoren.
 
 $v_1$ = $u_1$/ $||u_1||$
 
-$v_2$ = $u_2 - \frac{u_2 \dot v_1}{Norm} v_1$
+$v_2$ = $u_2 - \frac{u_2 . v_1}{Norm} v_1$
 
 $v_x$ = ...
 
@@ -196,14 +188,11 @@ Ook definieerd het dat een vector $v = v^{||} + v^{\perp}$
 
 Waarbij $v^{||}$ de projectie is van $v$ op $u$ en $v^{\perp}$ de projectie op de orthogonale basis.
 
-$v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$
+$v^{||} = (u_1 . y) u_1 + (u_2 . y) u_2 + ...$
 
 \subsubsection{Voorbeeld Gramm-Schmidt}
 
-Zie Figuur \ref{fig:gramm_schmidt}.
-
-
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./gram.pdf}
 	\caption{Hier gebruiken we dus de iteratieve formule om de basis te vinden.}
@@ -232,13 +221,11 @@ Zeer belangrijk is dat:
 
 $N(A)$ complementair is aan $K(A^T)$ en $N(A^T)$ is complementair aan $K(A)$
 
-Bij de representatie van het vlak heb je een \textbf{rang}. Dit is basically de hoeveelheid kolommen van $Q$ niet nul zijn.
+Bij de representatie van het vlak heb je een \textbf{rang}. Dit is basically de hoeveelheid kolommen van Matrix $Q$ niet nul zijn.
 
 \subsubsection{Voorbeeld definities}
 
-Zie Figuur \ref{fig:kolom_rij_null}.
-
-\begin{figure}[hbpt!]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/kolom_rij_null.png}
 	\caption{}
@@ -274,13 +261,12 @@ The following properties hold:
 
 \subsubsection{Voorbeeld Projectie}
 
-Zie Figuur \ref{fig:projectie}.
-
-\begin{figure}
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./projector.pdf}
 	\end{center}
-	\caption{}\label{fig:projectie}
+	\caption{We zien dat x en y component 1 zijn, dus dit is een projector voor het x-y vlak}
+	\label{fig:projectie}
 \end{figure}
 
 \subsection{Kleinste kwadraten fit}
@@ -322,7 +308,7 @@ Properties:
 \begin{enumerate}
 	\item $det(A) = det(A^T)$
 	\item $det(AB) = det(A) det(B)$
-	\item $det(A) = 0 -> linear dependent$
+	\item $det(A) = 0 \text{ is linear DEPENDENT}$
 \end{enumerate}
 
 \subsection{Basic rotation matrix}
@@ -336,9 +322,7 @@ with the middle matrix being **inverse**.
 
 \subsubsection{Example}
 
-See Figure \ref{fig:rotation} and \ref{fig:rotationex}.
-
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{./images/rotation.png}
 	\end{center}
@@ -346,7 +330,7 @@ See Figure \ref{fig:rotation} and \ref{fig:rotationex}.
 	\label{fig:rotation}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.7\textwidth]{./rotation.pdf}
 	\end{center}
@@ -364,7 +348,7 @@ $p_A(\lambda) = det(A - \lambda I) = 0$
 
 Figuur \ref{fig:mult} toont een voorbeeld van de multipliciteit.
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/mult.jpg}
 	\end{center}
@@ -378,7 +362,7 @@ Indien alle geometrische multipliciteiten gelijk zijn aan de algebraische multip
 $A = MDM^{-1}$
 
 met $D$ een diagonale matrix met de eigenwaarden op de diagonaal.
-en $M$ een matrix met de eigenvectoren.
+en $M$ een matrix met de eigenvectoren. $M^T$ is de matrix met rechterhand eigenvectoren
 
 \subsection{Jordan Form}
 
@@ -387,7 +371,7 @@ met $J$ een Jordan matrix.
 Dit is nodig indien de dimensie van de eigenruimte (geometrische multipliciteit) kleiner is dan de algebraische multipliciteit.
 Aka, de matrix is niet diagonaliseerbaar. \ref{fig:jordan} \ref{fig:jordan_ex}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/jordan.png}
 	\end{center}
@@ -395,7 +379,7 @@ Aka, de matrix is niet diagonaliseerbaar. \ref{fig:jordan} \ref{fig:jordan_ex}
 	\label{fig:jordan}
 \end{figure}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/ex_joran.png}
 	\end{center}
@@ -405,7 +389,7 @@ Aka, de matrix is niet diagonaliseerbaar. \ref{fig:jordan} \ref{fig:jordan_ex}
 
 This gives us: \ref{fig:jordan_sol}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/sol_jordan.png}
 	\end{center}
@@ -415,14 +399,16 @@ This gives us: \ref{fig:jordan_sol}
 
 \subsubsection{Example}
 
-See Figure \ref{fig:jordan_ex_2}.
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/jordan_ex_2.png}
 	\end{center}
 	\caption{Jordan matrix example 2}
 	\label{fig:jordan_ex_2}
 \end{figure}
+
+The jordan blocks are defined by the superline noted using 1.
+Dus de goniometrische multipliciteit betekend de hoeveelheid jordan blocks.
 
 \subsection{Matrixmachten en iteratieve matrixvergelijkingen}
 
@@ -432,7 +418,7 @@ $A^k = M J^k M^{-1}$ voor niet-diagonaliseerbare matrices
 
 met diagonaal matrix: \ref{fig:diag}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/diag.png}
 	\end{center}
@@ -444,7 +430,7 @@ met diagonaal matrix: \ref{fig:diag}
 
 Dit is enkel voor de diagonaliseerbare matrices. ($A^k = M D^k M^{-1}$)
 
-\textbf{asymptotisch gedrag}: $\lim_{k \to \infty} u_k = \lambda^k (v_{L1} * u_0) v_1$
+\textbf{asymptotisch gedrag}: $\lim_{k \to \infty} u_k = \lambda^k (v_{L1} u_0) v_1$
 
 $v_1$ is een fixed point in het asymptotisch gedrag.
 
@@ -452,7 +438,7 @@ $v_1$ is een fixed point in het asymptotisch gedrag.
 
 Zie Figuur \ref{fig:fibo}.
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/fibo.png}
 	\end{center}
@@ -478,7 +464,7 @@ Ook goed om te weten is dat wanneer de matrix strikt positieve getallen heeft, d
 
 Zie Figuur \ref{fig:markov} and \ref{fig:markovsol}.
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/markov.png}
 	\end{center}
@@ -486,7 +472,7 @@ Zie Figuur \ref{fig:markov} and \ref{fig:markovsol}.
 	\label{fig:markov}
 
 \end{figure}
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./markov.pdf}
 	\end{center}
@@ -498,7 +484,7 @@ Zie Figuur \ref{fig:markov} and \ref{fig:markovsol}.
 
 Hier gaan we een matrix plaatsen de exponent.
 
-$e^{At} = M e^{Dt} M^{-1}$ -> concreet voorbeeld
+$e^{At} = M e^{Dt} M^{-1}$ $\rightarrow$ concreet voorbeeld
 
 \textbf{Algemeen}:
 
@@ -510,7 +496,7 @@ $e^{A} = M e^{D} M^{-1}$ || $e^{A} = M e^{J} M^{-1}$ (niet-diagonaliseerbare mat
 
 In matrix vorm zie je het volgende: \ref{fig:matrix_expo}
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/matrix_expo.png}
 	\end{center}
@@ -518,7 +504,7 @@ In matrix vorm zie je het volgende: \ref{fig:matrix_expo}
 	\label{fig:matrix_expo}
 \end{figure}
 
-Note: Maple geeft de functie `MatrixExponential(A, t)` om $e^{At}$ te berekenen.
+Note: Maple geeft de functie \texttt{MatrixExponential(A, t)} om $e^{At}$ te berekenen.
 
 \subsubsection{eerste-orde differentiaalvergelijking}
 
@@ -534,7 +520,7 @@ Hetzelfde als hierboven
 
 Zie Figuur \ref{fig:diff2}.
 
-\begin{figure}[htbp!]
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.95\textwidth]{./images/something.png}
 	\end{center}
@@ -545,13 +531,16 @@ Zie Figuur \ref{fig:diff2}.
 \subsection{Symmetrische matrices}
 
 - $A = A^T$
+
 - $A$ heeft enkel reele eigenwaarden
+
 - $A$ heeft orthogonale eigenvectoren
+
 - $A = ODO^T$ met $O$ een orthogonale matrix en $D$ een diagonale matrix
 
 Omdat $O^T = O^{-1}$, kunnen we zeggen dat $O^T O = I$
 
-Ook is het zo dat geometrische multipliciteit = algebraische multipliciteit. -> $A$ is diagonaliseerbaar.
+Ook is het zo dat geometrische multipliciteit = algebraische multipliciteit. $\rightarrow$ $A$ is diagonaliseerbaar.
 
 \subsection{SVD (Singular Value Decomposition)}
 
@@ -931,6 +920,18 @@ Een vectorveld wordt conservatief genoemd wanneer deze kan herschreven worden al
 
 $F = \nabla \phi$
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/scalar_potential.pdf}
+	\caption{Conservatief voorbeeld}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/voorbeeld_week_4_conservatief.pdf}
+	\caption{Conservatief voorbeeld maple}
+\end{figure}
+
 Samengevat: voor een ESG (enkelvoudig samenhangend gebied) is een vectorveld conservatief als de rotor = 0, $\nabla \times F = 0$. Hierbij hebben we dan ook het feit dat het vectorveld conservatief is: $F = \nabla \phi$
 
 \textbf{ESG} btw is een gebied die we kunnen herleiden tot een punt. Dus stel er is een paal midden in het gebied, is dit geen ESG want we de paal staat in de weg!
@@ -1227,11 +1228,10 @@ Nu we weten wat Stokes eigenlijk is, laten we een voorbeeld bezichtigen:
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/stokes_voorbeeld_opgelost.png}
+	\includegraphics[width=0.8\textwidth]{assets/stokes_voorbeeld.pdf}
 	\caption{Stokes voorbeeld opgelost}
 	\label{fig:stokes_voorbeeld_opgelost}
 \end{figure}
-
 
 \begin{figure}[H]
 	\centering
@@ -1494,6 +1494,10 @@ Net zoals de cosinusreeks hebben we ook de sinusreeks, dit is de situatie waarbi
 	\label{fig:uitleg_dft}
 \end{figure}
 
+De DFT van een sequentie $x_n$ is gegeven door:
+
+$$ x_k = \frac{1}{\sqrt{N}} \sum_{n=0}^{N-1} x_n e^{-i2\pi kn/N} $$
+
 \href{https://www.youtube.com/watch?v=mkGsMWi_j4Q}{DFT explained} $\rightarrow$ Great video.
 
 \begin{figure}[H]
@@ -1635,8 +1639,133 @@ Given the signal \( x[n] = [1, 2, 3, 4] \) and \( N = 4 \), we compute the FFT s
 	X[k] = [10, -2 + 2j, -2, -2 - 2j]
 \]
 
+\chapter{Partiële Differentiaalvergelijkingen}
 
+\section{Warmte en golfvergelijking}
 
+Hier bespreken we $u(x, t)$ ipv $u(x)$.
+
+We hebben twee soorten partiële differentiaalvergelijkingen:
+
+\begin{itemize}
+	\item Warmtevgl: $\partial_t u(x, t) = \alpha^2 \partial_{x}^2 u(x, t)$
+	\item Golfvgl: $\partial_{t}^2 u(x, t) = c^2 \partial_{x}^2 u(x, t)$
+\end{itemize}
+
+\subsection{Randvoorwaarden}
+
+\begin{itemize}
+	\item Dirichlet: $u(a, t) = u_a$
+	\item Neumann: $\partial_x u(x, t) |_{x=a} = J_a$
+\end{itemize}
+
+Wanneer $u_a$ of $J_a$ gelijk is aan 0, spreken we van een homogene randvoorwaarde.
+Als niet 0, dan is dit inhomogene randvoorwaarde.
+
+\subsubsection{Beginvoorwaarden}
+
+Voor de warmtevgl: $u(x, 0) = f(x)$
+
+Voor de golfvgl:
+\[
+	\left\{
+	\begin{aligned}
+		u(x, 0)            & = f(x), \\
+		\partial_t u(x, 0) & = g(x)
+	\end{aligned}
+	\right.
+\]
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/warmtevgl.png}
+	\caption{Warmtevgl}
+	\label{fig:warmtevgl}
+\end{figure}
+
+\subsection{Fysische basis}
+
+\subsubsection{Warmte}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/fysische_basis_warmte.png}
+	\caption{Fysische basis warmte}
+	\label{fig:fysische_basis_warmte}
+\end{figure}
+
+\subsubsection{Golf}
+
+De golfvgl: $\partial_{t}^2 u(x, t) = c^2 \partial_{x}^2 u(x, t)$
+
+We gebruiken Dirichlet voor een gespannen snaar, en Neumann voor een vrij uiteinde.
+
+\section{Oplossing 1D Warmtevergelijking}
+
+Basically, we nemen de scheiding van veranderlijken. Deze laten ons toe om de normale modes te vinden, die voldoen aan de homogene randvoorwaarden.
+
+Dus stap 1: Scheiding van veranderlijken:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/scheiding_vn_veranderlijken.png}
+	\caption{Scheiding van veranderlijken}
+	\label{fig:scheiding_vn_veranderlijken}
+\end{figure}
+
+Stap 2: We vinden de normale modes:
+
+\begin{itemize}
+	\item Ga opzoek naar oplossingen $X(x)$ die voor bepaalde waarden van $\sigma$ voldoen aan de homogene randvoorwaarden.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/stap_2_warmte_vgl.png}
+	\caption{Stap 2 warmte vgl}
+	\label{fig:stap_2_warmte_vgl}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/warmte_vgl_part_2.png}
+	\caption{Warmte vgl part 2}
+	\label{fig:warmte_vgl_part_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/warmte_vgl_part_3.png}
+	\caption{Warmte vgl part 3}
+	\label{fig:warmte_vgl_part_3}
+\end{figure}
+
+\includepdf[pages=-]{assets/warmte_vgl.pdf}
+
+\subsection{Orthogonaliteitsrelaties}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/orthogonaliteitsrelaties.png}
+	\caption{Orthogonaliteitsrelaties}
+	\label{fig:orthogonaliteitsrelaties}
+\end{figure}
+
+\section{Voorbeeld Oefening}
+
+\includepdf[pages=-]{assets/WiMo-4_oplossing_voorbeeld_warmte.pdf}
+
+\includepdf[pages=-]{assets/WiMo-5.pdf}
+
+\chapter{Integraaltransformaties}
+
+\section{Fouriertransformatie}
+
+\includepdf[pages=-]{assets/WiMo-6.pdf}
+
+\section{Laplace transformatie}
+
+\includepdf[pages=-]{assets/WiMo-7.pdf}
 
 \section*{Formularium}
 
@@ -1698,107 +1827,99 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 
 \subsection*{Huis 1}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/huis_1_ex_1.pdf}
 	\caption{Exercise 1}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/huis_1_ex_2.pdf}
 	\caption{Exercise 2}
 \end{figure}
 
-
-
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_1_ex_3.png}
 	\caption{Exercise 3}
 	\label{fig:huis_1_ex_3}
 \end{figure}
 
-
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.6\textwidth]{assets/huis_1_ex_4.png}
 	\caption{Exercise 4}
 	\label{fig:huis_1_ex_4}
 \end{figure}
 
-\newpage
-
 \subsection*{WC 1}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/wc_1_ex_1.pdf}
 	\caption{Exercise 1}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/wc_1_ex_2.pdf}
 	\caption{Exercise 2}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/wc1_a3.png}
 	\caption{Exercise 3}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/wc_1_ex_3.pdf}
 	\caption{Exercise 3}
 \end{figure}
 
-\newpage
 \subsection*{Bord 1}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/bordles_1.pdf}
 	\caption{Exercise 1}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/ex_2_a.png}
 	\caption{Exercise 2}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{./exercises/bordles_1_ex_2.pdf}
 	\caption{Exercise 2 part 2 Maple}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/pl_1_answer_3.png}
 	\caption{Exercise 3}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/plot_2.png}
 	\caption{Exercise 3 - plot }
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{./exercises/bordles_1_ex_3.pdf}
 	\caption{Exercise 3}
 \end{figure}
 
-\newpage
-
 \subsection*{Huis 2}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_2_ex_1.png}
 	\caption{Huis 2 Exercise 1}
@@ -1806,7 +1927,7 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_2_ex_2.png}
 	\caption{Huis 2 Exercise 2}
@@ -1814,77 +1935,77 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \end{figure}
 
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_2_ex_3.png}
 	\caption{Huis 2 Exercise 3}
 	\label{fig:huis_2_ex_3}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/huis_2_4.png}
 	\caption{Huis 2 Exercise 4}
 	\label{fig:huis_2_ex_4}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/huis_2_maple_4.png}
 	\caption{Huis 2 Exercise 4 Maple}
 	\label{fig:huis_2_ex_4_maple}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/huis_2_ex_5.pdf}
 	\caption{Huis 2 Exercise 5: We zien dat de projector op het YZ vlak projecteert.}
 	\label{fig:huis_2_ex_5}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/huis_2_6.png}
 	\caption{Huis 2 Exercise 6: Uit de cursus weten we dat er geen basis kan gevonden worden voor $K(A^T)$ en $N(A)$}
 	\label{fig:huis_2_ex_6}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/huis_2_7.png}
 	\caption{Huis 2 Exercise 7}
 	\label{fig:huis_2_ex_7}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/huis_2_ex_7.pdf}
 	\caption{Huis 2 Exercise 7 Maple}
 	\label{fig:huis_2_ex_7_maple}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/huis_2_8.png}
 	\caption{Huis 2 Exercise 8}
 	\label{fig:huis_2_ex_8}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{assets/huis_2_ex_8.png}
 	\caption{Huis 2 Exercise 8 second version}
 	\label{fig:huis_2_ex_8_second}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/huis_2_9.png}
 	\caption{Huis 2 Exercise 9}
 	\label{fig:huis_2_ex_9}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/huis_2_ex_9.pdf}
 	\caption{Huis 2 Exercise 9 Maple}
@@ -1893,77 +2014,66 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 
 \subsection*{Bord 2}
 
-
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{assets/bordles_2_ex_1.png}
 	\caption{Bord 2 Exercise 1}
 	\label{fig:bord_2_ex_1}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/bordles_2_ex_1_version_1.pdf}
 	\caption{Bord 2 Exercise 1 Maple}
 	\label{fig:bord_2_ex_1_maple}
 \end{figure}
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/bordles_2_ex_1_version_2.pdf}
 	\caption{Bord 2 Exercise 1 Maple Version 2: Warning, pdf is not fully loaded, go look in my files}
 	\label{fig:bord_2_ex_1_maple_2}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{assets/bordles_2_ex_2.png}
 	\caption{Bord 2 Exercise 2}
 	\label{fig:bord_2_ex_2}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{exercises/bordles_2_ex_2.pdf}
 	\caption{Bord 2 Exercise 2 Maple}
 	\label{fig:bord_2_ex_2_maple}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/pl_2_ex_3.png}
 	\caption{Bord 2 Exercise 3}
 	\label{fig:bord_2_ex_3}
 \end{figure}
 
-\begin{figure}[!htbp]
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=\textwidth]{images/pl_2_ex_4.png}
 	\caption{Bord 2 Exercise 4}
 	\label{fig:bord_2_ex_4}
 \end{figure}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_1.png}
-	\caption{Bord 2 Exercise 5 Part 1}
-	\label{fig:bord_2_ex_5_part_1}
+	\includegraphics[width=\textwidth]{exercises/bord_2_ex_5_r.pdf}
+	\caption{Bord 2 Exercise 5}
+	\label{fig:bord_2_ex_5}
 \end{figure}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_2.png}
-	\caption{Bord 2 Exercise 5 Part 2}
-	\label{fig:bord_2_ex_5_part_2}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/bord_2_ex_5_part_3.png}
-	\caption{Bord 2 Exercise 5 Part 3}
-	\label{fig:bord_2_ex_5_part_3}
+	\includegraphics[width=\textwidth]{exercises/bord_2_ex_5.pdf}
+	\caption{Bord 2 Exercise 5 Maple}
+	\label{fig:bord_2_ex_5_maple}
 \end{figure}
 
 \subsection*{WC 2}
@@ -1997,9 +2107,7 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 	\label{fig:wc_2_ex_3_maple}
 \end{figure}
 
-\newpage
 \subsection*{Huis 3}
-
 
 \begin{figure}[H]
 	\centering
@@ -2008,14 +2116,12 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 	\label{fig:huis_3_ex_1_Maple}
 \end{figure}
 
-
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_3_ex_1.png}
 	\caption{Huis 3 Exercise 1}
 	\label{fig:huis_3_ex_1}
 \end{figure}
-
 
 \begin{figure}[H]
 	\centering
@@ -2073,6 +2179,13 @@ $v^{||} = (u_1 \dot y) u_1 + (u_2 \dot y) u_2 + ...$ // Projectie van $v$
 \includepdf[pages=-]{exercises/huis_3_ex_9.pdf}
 
 \subsection*{Bord 3}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_3_ex_1.pdf}
+	\caption{Exercise 1}
+	\label{fig:bord_3_ex_1}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
@@ -2201,10 +2314,7 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 	\label{fig:wc_4_ex_2_maple}
 \end{figure}
 
-
-
 \subsection*{Huis 5}
-
 
 \begin{figure}[H]
 	\centering
@@ -2212,6 +2322,7 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 	\caption{Exercise 1}
 	\label{fig:huis_5_ex_1}
 \end{figure}
+
 
 \begin{figure}[H]
 	\centering
@@ -2230,7 +2341,7 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_5_ex_4.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_5_ex_4.pdf}
 	\caption{Exercise 4}
 	\label{fig:huis_5_ex_4}
 \end{figure}
@@ -2284,14 +2395,6 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 // Exercise 3
 \includepdf[pages=-]{exercises/bord_5_ex_3.pdf}
 
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/ilkay.png}
-	\caption{Sigma Boss}
-	\label{fig:ilkay}
-\end{figure}
-
 \subsection*{WC 5}
 
 \begin{figure}[H]
@@ -2327,10 +2430,9 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \subsection*{Huis 6}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_1.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_1.pdf}
 	\caption{Exercise 1}
 	\label{fig:huis_6_ex_1}
 \end{figure}
@@ -2338,7 +2440,7 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_2.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_2.pdf}
 	\caption{Exercise 2}
 	\label{fig:huis_6_ex_2}
 \end{figure}
@@ -2362,7 +2464,7 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_5.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_5.pdf}
 	\caption{Exercise 5}
 	\label{fig:huis_6_ex_5}
 \end{figure}
@@ -2374,10 +2476,9 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 	\label{fig:huis_6_ex_5_maple}
 \end{figure}
 
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_6.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_6.pdf}
 	\caption{Exercise 6}
 	\label{fig:huis_6_ex_6}
 \end{figure}
@@ -2391,9 +2492,15 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_7.png}
+	\includegraphics[width=0.8\textwidth]{assets/huis_6_ex_7.pdf}
 	\caption{Exercise 7}
 	\label{fig:huis_6_ex_7}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_6_ex_7.pdf}
+	\caption{Exercise 7 Maple}
 \end{figure}
 
 \begin{figure}[H]
@@ -2566,8 +2673,21 @@ The following exercise is quite diffucult, however we simply take the SVD and lo
 
 \begin{figure}[H]
 	\centering
+	\includegraphics[width=0.8\textwidth]{exercises/huis_7_ex_2.pdf}
+	\caption{Exercise 2 Maple}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
 	\includegraphics[width=0.8\textwidth]{assets/huis_7_ex_3.png}
 	\caption{Exercise 3}
+	\label{fig:huis_7_ex_3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+  \includegraphics[width=0.8\textwidth]{exercises/huis_7_ex_3.pdf}
+	\caption{Exercise 3 Maple}
 	\label{fig:huis_7_ex_3}
 \end{figure}
 
@@ -2875,6 +2995,307 @@ For large \(t\), the amplitude of the oscillation grows linearly due to the \(-\
 
 \includepdf[pages=-]{assets/Quick sheets.pdf}
 
+
+\subsection*{Huis 9}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:huis_9_ex_1}
+\end{figure}
+
+\includepdf[pages=-]{exercises/huis_9_ex_1.pdf}
+
+\includepdf[pages=-]{exercises/huis_9_ex_2.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_3.png}
+	\caption{Exercise 3}
+	\label{fig:huis_9_ex_3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_4.png}
+	\caption{Exercise 4}
+	\label{fig:huis_9_ex_4}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:huis_9_ex_5}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_6.png}
+	\caption{Exercise 6}
+	\label{fig:huis_9_ex_6}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_7.png}
+	\caption{Exercise 7}
+	\label{fig:huis_9_ex_7}
+\end{figure}
+
+\includepdf[pages=-]{exercises/huis_9_ex_7.pdf}
+
+\subsubsection{Exercise 8}
+
+Starting with the definition of $\widetilde{X}_k$:
+\[
+	\widetilde{X}_k = \sum_{n=0}^{N-1} x_n \, e^{-\frac{i2\pi kn}{N}}.
+\]
+
+Using the symmetry property $x_n = x_{N - n - 1}$, we can substitute:
+\[
+	\widetilde{X}_k = \sum_{n=0}^{N-1} x_{N - n - 1} \, e^{-\frac{i2\pi kn}{N}}.
+\]
+
+Let us make a change of variables. Let $m = N - n - 1$. Then as $n$ goes from $0$ to $N - 1$, $m$ goes from $N - 1$ to $0$. To keep the limits in ascending order, we can reverse the order of summation:
+
+\[
+	\widetilde{X}_k = \sum_{m=0}^{N-1} x_m \, e^{-\frac{i2\pi k (N - m - 1)}{N}}.
+\]
+
+Simplify the exponent:
+
+\[
+	-\frac{i2\pi k (N - m - 1)}{N} = -\frac{i2\pi k N}{N} + \frac{i2\pi k m}{N} + \frac{i2\pi k}{N}
+\]
+\[
+	= -i2\pi k + \frac{i2\pi k m}{N} + \frac{i2\pi k}{N}.
+\]
+
+
+Since $e^{-i2\pi k} = e^{-i2\pi k} = 1$ (because $e^{-i2\pi k} = e^{-i2\pi k \mod 2\pi} = 1$), we have:
+
+\[
+	e^{-i2\pi k} = 1.
+\]
+
+Therefore, the exponential term simplifies to:
+
+\[
+	e^{-\frac{i2\pi k (N - m - 1)}{N}} = e^{\frac{i2\pi k m}{N}} \, e^{\frac{i2\pi k}{N}}.
+\]
+
+Pulling out constants from the summation:
+
+\[
+	\widetilde{X}_k = e^{\frac{i2\pi k}{N}} \sum_{m=0}^{N-1} x_m \, e^{\frac{i2\pi k m}{N}}.
+\]
+
+Notice that:
+
+\[
+	e^{\frac{i2\pi k m}{N}} = e^{-\frac{i2\pi (-k) m}{N}} = e^{-\frac{i2\pi (N - k) m}{N}}.
+\]
+
+But since $N - k$ is equivalent to $-k \mod N$, we can write:
+
+\[
+	\widetilde{X}_k = e^{\frac{i2\pi k}{N}} \sum_{m=0}^{N-1} x_m \, e^{-\frac{i2\pi (N - k) m}{N}}.
+\]
+
+Recognize that the sum is the DFT of $x_n$ at index $N - k$:
+
+\[
+	\widetilde{X}_{N - k} = \sum_{m=0}^{N-1} x_m \, e^{-\frac{i2\pi (N - k) m}{N}}.
+\]
+
+Therefore:
+
+\[
+	\widetilde{X}_k = e^{\frac{i2\pi k}{N}} \widetilde{X}_{N - k}.
+\]
+
+We have shown that:
+
+\[
+	\widetilde{X}_k = e^{\frac{i2\pi k}{N}} \widetilde{X}_{N - k}.
+\]
+
+This completes the proof.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/huis_9_ex_9.png}
+	\caption{Exercise 9}
+	\label{fig:huis_9_ex_9}
+\end{figure}
+
+\subsection*{WC 9}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_9_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:wc_9_ex_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_9_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:wc_9_ex_2}
+\end{figure}
+
+\includepdf[pages=-]{exercises/wc_9_ex_3.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_9_ex_4.png}
+	\caption{Exercise 4}
+	\label{fig:wc_9_ex_4}
+\end{figure}
+
+\includepdf[pages=-]{exercises/wc_9_ex_4.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_9_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:wc_9_ex_5}
+\end{figure}
+
+\subsection*{Bord 9}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:bord_9_ex_1}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_9_ex_1.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:bord_9_ex_2}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_9_ex_2.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_3.png}
+	\caption{Exercise 3}
+	\label{fig:bord_9_ex_3}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_4_part_1.png}
+	\caption{Exercise 4 Part 1}
+	\label{fig:bord_9_ex_4_part_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_4_part_2.png}
+	\caption{Exercise 4 Part 2}
+	\label{fig:bord_9_ex_4_part_2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_9_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:bord_9_ex_5}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_9_ex_5.pdf}
+
+\subsection*{Huis 10}
+
+\includepdf[pages=-]{assets/huis_10_ex_1.pdf}
+
+\includepdf[pages=-]{exercises/huis_10_ex_2.pdf}
+
+\includepdf[pages=-]{assets/huis_10_ex_2.pdf}
+
+\subsection*{WC 10}
+
+\includepdf[pages=-]{assets/wc_10.pdf}
+
+\includepdf[pages=-]{assets/wc_10_ex_1.pdf}
+
+\includepdf[pages=-]{exercises/wc_10.pdf}
+
+\subsection*{Bord 10}
+
+\includepdf[pages=-]{assets/bord_10_ex_1.pdf}
+
+\includepdf[pages=-]{exercises/bord_10_maple.pdf}
+
+\subsection*{Huis 11}
+
+\subsection*{Bord 11}
+
+\includepdf[pages=-]{assets/bord_11_ex_1.pdf}
+
+\includepdf[pages=-]{exercises/bord_11_ex_2.pdf}
+
+\subsection*{WC 11}
+
+\includepdf[pages=-]{assets/wc_11_ex_1.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/wc_11_ex_4.png}
+	\caption{Exercise 4}
+	\label{fig:wc_11_ex_4}
+\end{figure}
+
+\subsection*{Bord 12}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_12_ex_1.png}
+	\caption{Exercise 1}
+	\label{fig:bord_12_ex_1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_12_ex_2.png}
+	\caption{Exercise 2}
+	\label{fig:bord_12_ex_2}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_12_ex_2.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_12_ex_3.png}
+	\caption{Exercise 4}
+	\label{fig:bord_12_ex_4}
+\end{figure}
+
+\includepdf[pages=-]{exercises/bord_12_ex_4.pdf}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/bord_12_ex_5.png}
+	\caption{Exercise 5}
+	\label{fig:bord_12_ex_5}
+\end{figure}
+
+\subsection*{Mock Exam}
+
+\includepdf[pages=-]{assets/Mock-Examen 2024-2025 - opgave-1.pdf}
+
+
+\end{document}
 \end{document}
 \end{document}
 \end{document}
